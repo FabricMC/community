@@ -6,3 +6,4 @@ base:
         - common/services
     "fabricmc-discord.lxd":  # Specific to the Discord container
         - fabricmc-discord/fabric-bot
+        - fabricmc-discord/modmail

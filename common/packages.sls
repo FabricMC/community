@@ -1,9 +1,9 @@
 install_packages:
     pkg.installed:
         - pkgs:
-            - base-dev
+            - build-essential
             - git
-            - havegd
+            - haveged
             - htop
             - caddy
 

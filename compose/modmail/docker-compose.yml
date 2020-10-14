@@ -1,0 +1,55 @@
+version: "3"
+services:
+  modmail:
+    image: kyb3rr/modmail
+    container_name: modmail
+
+    environment:
+      - TOKEN
+
+      - GUILD_ID=507304429255393322
+      - LOG_CHANNEL_ID=748615933215637654
+      - MAIN_CATEGORY_ID=748444397858717728
+      - MODMAIL_GUILD_ID=748444397858717727
+      - OWNERS=98473211301212160
+      - PREFIX=?
+      - REPLY_WITHOUT_COMMAND=true
+
+      - LOG_URL=https://l.modm.us
+      - MONGO_URI=mongodb://modmail-db
+
+    restart: always
+
+    depends_on:
+      - modmail-db
+
+  modmail-viewer:
+    image: kyb3rr/logviewer
+    container_name: modmail-viewer
+
+    environment:
+      - MONGO_URI=mongodb://modmail-db
+      - LOG_URL=https://l.modm.us
+
+    restart: always
+
+    depends_on:
+      - modmail-db
+
+    ports:
+      - 8102:8000
+
+    healthcheck:
+      interval: 5s
+      test: curl -sS http://127.0.0.1:8000 || exit 1
+      timeout: 10s
+      retries: 3
+
+  modmail-db:
+    image: mongo:4.4.0
+    container_name: modmail-db
+
+    volumes:
+      - /home/docker/volumes/modmail/db:/data/db
+
+    restart: always
