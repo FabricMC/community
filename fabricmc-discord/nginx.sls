@@ -13,7 +13,7 @@ fabricmc_discord_nginx:
 fabricmc_discord_nginx_files:
     file.recurse:
         - name: /etc/nginx/sites-enabled
-        - source: salt://fabricmc-discord/etc/nginx
+        - source: salt://fabricmc-discord/etc/nginx/sites-enabled
 
 l.modm.us:
     acme.cert:
