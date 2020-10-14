@@ -17,6 +17,8 @@ server {
 
 server {
     listen 443 ssl proxy_protocol;
+    listen [::]:443 ssl proxy_protocol;
+    
     server_name l.modm.us;
 
     ssl_certificate /etc/letsencrypt/live/l.modm.us/fullchain.pem;
