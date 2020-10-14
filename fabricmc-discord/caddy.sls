@@ -13,7 +13,7 @@ fabricmc_discord_caddy:
             - file: fabricmc_discord_caddy_files
 
 fabricmc_discord_caddy_config:
-    - file.managed:
+    file.managed:
         - name: /etc/caddy/Caddyfile
         - source: salt://common/etc/caddy/Caddyfile
 
