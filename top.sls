@@ -4,7 +4,7 @@ base:
 
         - common/docker
     "fabricmc-discord.lxd":  # Specific to the Discord container
-        - fabricmc-discord/caddy
         - fabricmc-discord/fabric-bot
         - fabricmc-discord/metrics
         - fabricmc-discord/modmail
+        - fabricmc-discord/nginx

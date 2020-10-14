@@ -1,3 +1,5 @@
 l.modm.us {
-        reverse_proxy localhost:8102
+    proxyprotocol fd42:f71a:c97f:5398:216:3eff:fe6c:ce98/64
+
+    reverse_proxy localhost:8102
 }

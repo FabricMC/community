@@ -4,7 +4,7 @@ install_packages:
             - build-essential
             - git
             - htop
-            - caddy
+            - nginx-full
 
 update_packages:
     pkg.uptodate:

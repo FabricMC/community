@@ -1,0 +1,22 @@
+fabricmc_discord_nginx:
+    service.running:
+        - name: nginx
+
+        - enable: True
+        - reload: True
+
+        - watch:
+            - file: fabricmc_discord_nginx_files
+        
+        - acme: l.modm.us
+
+fabricmc_discord_nginx_files:
+    file.recurse:
+        - name: /etc/nginx/sites-enabled
+        - source: salt://fabricmc-discord/etc/nginx
+
+l.modm.us:
+    acme.cert:
+        - webroot: /srv/acme
+        - renew: 14
+        - certname: l.modm.us
