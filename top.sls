@@ -3,7 +3,8 @@ base:
         - common/packages  # Do this one first
 
         - common/docker
-        - common/services
     "fabricmc-discord.lxd":  # Specific to the Discord container
+        - fabricmc-discord/caddy
         - fabricmc-discord/fabric-bot
+        - fabricmc-discord/metrics
         - fabricmc-discord/modmail

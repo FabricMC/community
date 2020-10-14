@@ -3,7 +3,6 @@ install_packages:
         - pkgs:
             - build-essential
             - git
-            - haveged
             - htop
             - caddy
 

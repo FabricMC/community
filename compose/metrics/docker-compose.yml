@@ -1,0 +1,57 @@
+version: '3'
+
+services:
+  metricity-db:
+    image: postres:alpine
+    container_name: metricity-db
+
+    restart: on-failure
+
+    environment:
+      - POSTGRES_DB=metricity
+      - POSTGRES_USER=metricity
+
+      - POSTGRES_PASSWORD
+
+    volumes:
+      - /home/docker/volumes/metricity/postgres:/var/lib/postgresql/data/
+
+  metricity:
+    image: docker.pkg.github.com/gdude2002/metricity/metricity:latest 
+    restart: on-failure
+    environment:
+        - DATABASE_URI=postgresql://metricity:${METRICITY_DB_PASS:?err}@metricitydb/metricity
+
+        - BOT_TOKEN
+    volumes:
+      - /home/docker/volumes/metricity/config.toml:/metricity/config.toml
+
+  metabase-db:
+    image: postgres:alpine
+    container_name:  metabase-db
+    restart: on-failure
+
+    environment:
+      - POSTGRES_DB=metabase
+      - POSTGRES_USER=metabase
+      - POSTGRES_PASSWORD
+
+    volumes:
+      - /home/docker/volumes/metabase/postgres:/var/lib/postgresql/data/
+
+  metabase:
+    image : metabase/metabase
+    container_name:  metabase-db
+
+    restart: on-failure
+
+    ports:
+      - "80:3000"
+
+    environment:
+      MB_DB_TYPE: postgres
+      MB_DB_DBNAME: metabase
+      MB_DB_PORT: 5432
+      MB_DB_USER: metabase
+      MB_DB_PASS: ${POSTGRES_PASSWORD:?err}
+      MB_DB_HOST: metabasedb
