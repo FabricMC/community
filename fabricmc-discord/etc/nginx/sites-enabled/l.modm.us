@@ -18,7 +18,7 @@ server {
 server {
     listen 443 ssl proxy_protocol;
     listen [::]:443 ssl proxy_protocol;
-    
+
     server_name l.modm.us;
 
     ssl_certificate /etc/letsencrypt/live/l.modm.us/fullchain.pem;
@@ -29,6 +29,9 @@ server {
     client_max_body_size 100M;
 
     location / {
+        auth_basic "FabricMC Modmail";
+        auth_basic_user_file /etc/nginx/auth/l.modm.us;
+
         proxy_pass http://localhost:8102/;
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
