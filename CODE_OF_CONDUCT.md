@@ -21,7 +21,7 @@ We are committed to providing a friendly, safe and welcoming environment for all
 * Trolling, insulting/derogatory comments, and personal or political attacks
 * Public or private harassment
 * Publishing others' private information, such as a physical or electronic address, without explicit permission
-* Discussing topics that are overly polarizing, sensitive, or incite arguments. This includes the discussion of polarizing political views, violence, suicide, and rape.
+* Discussing topics that are overly polarizing, sensitive, or incite arguments. This includes the discussion of polarizing political views, violence, suicide, and rape
 * Other conduct which could reasonably be considered inappropriate
 
 # Our goal
