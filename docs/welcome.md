@@ -23,7 +23,7 @@ The Fabric project is a modular and modern modding toolchain for Minecraft, prim
 2️⃣ Use English if possible
 3️⃣ Treat all users with patience and respect, and consider other people's personal circumstances (e.g. epilepsy, identity, plurality, PTSD, culture, race, sexuality, etc)
 4️⃣ Communicate in an appropriate and non-discriminatory manner, and don't provoke or harass others
-5️⃣ Don't ping/mention other users to draw attention to your support requests, or to be hostile/annoying
+5️⃣ Don't mention (aka ping) other users to draw attention to your support requests, or to be hostile/annoying
 6️⃣ Keep all projects legal and appropriate, and follow licensing requirements — for example, no piracy, malware or troll projects, and all code examples must avoid sexual and discriminatory language
 7️⃣ Follow the given topics and guidelines for each channel
 8️⃣ Do not mention names from MCP, Mojang or other proprietary mappings, even if you use spoilers
@@ -47,7 +47,7 @@ We also reserve the right to make emergency changes to policies quickly, if need
 If something happens that requires the attention of a staff member (e.g. someone spams or otherwise breaks the rules), then you have a few options:
 
 **»** For issues you'd rather keep private, send a private message to **<@ Fabric Mod Mail>** to open a modmail thread and a staff member will respond as soon as possible.
-**»** For issues that are unfolding in public, feel free to ping/mention the **<@ Moderator>** role directly in the channel — but, of course, you can still use modmail if you'd prefer.
+**»** For issues that are unfolding in public, feel free to mention (aka ping) the **<@ Moderator>** role directly in the channel — but, of course, you can still use modmail if you'd prefer.
 **»** If your report concerns a member of staff, please send a private message directly to a different member of staff.
 
 Please don't be afraid to contact the staff if there's a problem — we're not going to be upset if you ping/mention us, even if we decide that no action is appropriate. That said, please don't try to direct the attention of the staff team to a support-related issue (for example: mod installation, Fabric crashes or mod development help) — we have specific channels for that.

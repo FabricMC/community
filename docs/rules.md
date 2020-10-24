@@ -8,7 +8,7 @@ Consider the below list a summary — the reasoning behind each rule (and how it
 1. Use English if possible
 1. Treat all users with patience and respect, and consider other people's personal circumstances (e.g. epilepsy, identity, plurality, PTSD, culture, race, sexuality, etc)
 1. Communicate in an appropriate and non-discriminatory manner, and don't provoke or harass others
-1. Don't ping/mention other users to draw attention to your support requests, or to be hostile/annoying
+1. Don't mention (aka ping) other users to draw attention to your support requests, or to be hostile/annoying
 1. Keep all projects legal and appropriate, and follow licensing requirements — for example, no piracy, malware or troll projects, and all code examples must avoid sexual and discriminatory language
 1. Follow the given topics and guidelines for each channel
 1. Do not mention names from MCP, Mojang or other proprietary mappings, even if you use spoilers
@@ -63,9 +63,9 @@ Much of the below will be common sense (and is present in the [Discord Community
 
 At the end of the day, everyone has a right to considerate and respectful communication within our community spaces — and we will act on anyone acting contrary to that concept.
 
-## Don't ping/mention other users...
+## Don't mention (aka ping) other users...
 
-> Don't ping/mention other users to draw attention to your support requests, or to be hostile/annoying
+> Don't mention (aka ping) other users to draw attention to your support requests, or to be hostile/annoying
 
 Discord's `@mentions` system is an extremely useful tool, when used correctly. There are many situations where it's appropriate to use it to get someone's attention, but we discourage the following uses:
 
