@@ -102,6 +102,8 @@ To help you understand what each channel is for, please see our [channel guide](
 
 > Do not mention names from MCP, Mojang or other proprietary mappings, even if you use spoilers
 
+When writing code, you tend to give your variables, methods, classes and packages descriptive names — so that you know what they do at a glance. When Mojang released Minecraft, the included names were obfuscated (erased or masked), which makes it difficult to know what everything is for. Mappings exist to solve this problem, by taking Mojang's obfuscated names and translating them to something useful for mod developers.
+
 The Fabric project [is home to Yarn](https://github.com/FabricMC/yarn), a free, open-source alternative to proprietary Minecraft mapping projects. In order to ensure the legal security of Yarn's contributors, we require that proprietary names aren't talked about within our communities. This includes (but is not limited to) the following mappings:
 
 * Forge/MCP mappings
@@ -115,6 +117,12 @@ If you're not sure about a name, then it may be best to avoid referring to it. W
 * Package names
 * Variable names
 * Comments
+* What the equivalent Yarn name is for something in Forge/MCP, or other proprietary mappings
+
+On the other hand, if you do need to discuss something relating to proprietary mappings then you are allowed to post a link to an external source — for example, a GitHub project — under the following conditions:
+
+* You make it clear that the page or project you're linking to contains mentions of proprietary mappings
+* You surround the link with `||spoiler markup||` or `<non-embedding markup>`
 
 There is no allowable way to work around or bypass this rule. You may not post these names in an image or using a spoiler. You are also not allowed to discuss how proprietary mappings projects _don't_ do things.
 
