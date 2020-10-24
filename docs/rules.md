@@ -89,6 +89,7 @@ This rule is fairly self-explanitory, but we expect all of your projects to be b
 * Projects that make use of unlicensed (ARR) code from other projects, or otherwise break software licenses from other projects
 * Projects or code examples that contain sexualised or discriminatory language, including in variable names or folder/package structure
 * Projects that promote discrimination or real-life violence
+* Projects that don't otherwise violate this rule, but deliberately mask or hide their intentions (troll projects) — this doesn't include bugs, easter eggs or projects that exist to mess with players, as long as the projects are clear about their intentions
 
 In general, anything that would break another rule if used in casual conversation is not allowed in your code. We expect project maintainers to be professional, respectful and non-discriminatory in their code and interactions.
 
