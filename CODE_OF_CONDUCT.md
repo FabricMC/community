@@ -16,7 +16,7 @@ We are committed to providing a friendly, safe and welcoming environment for all
 
 * The use of sexualized language or imagery and sexual attention or advances
 * The use of inappropriate images, including in a community member's avatar
-* The use of inappropriate language, including in a community member's nickname
+* The use of inappropriate language, including in a community member's nickname or status
 * Any spamming, flaming, baiting or other attention-stealing behavior
 * Trolling, insulting/derogatory comments, and personal or political attacks
 * Public or private harassment
