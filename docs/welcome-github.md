@@ -4,8 +4,6 @@ This document is intended to be copied into a Discord channel, and Discord does 
 
 # Welcome channel
 
-The Fabric project is a modular and modern modding toolchain for Minecraft, primarily targeting 1.14+ versions of the game. It aims to provide a modular, efficient and easy-to-use toolset for creating Minecraft mods, with a short time-to-release when a new version of Minecraft comes out.
-
 ![What is the Fabric project?](/images/header-1-fabric-project.png)
 
 The Fabric project is a modular and modern modding toolchain for Minecraft, primarily targeting 1.14+ versions of the game. It aims to provide an efficient and easy-to-use toolset for creating Minecraft mods, with a short time-to-release when a new version of Minecraft comes out. It's also based on Yarn, which is a fully free/open set of Minecraft mappings.
