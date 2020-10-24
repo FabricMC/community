@@ -6,7 +6,7 @@ Consider the below list a summary — the reasoning behind each rule (and how it
 
 1. Follow Discord's Terms of Service and Community Guidelines
 1. Use English if possible
-1. Treat all users with patience and respect, and consider other people's personal circumstances (e.g. epilepsy, identity, plurality, PTSD, race, sexuality, etc)
+1. Treat all users with patience and respect, and consider other people's personal circumstances (e.g. epilepsy, identity, plurality, PTSD, culture, race, sexuality, etc)
 1. Communicate in an appropriate and non-discriminatory manner, and don't provoke or harass others
 1. Don't ping/mention other users to draw attention to your support requests, or to be hostile/annoying
 1. Keep all projects legal and appropriate, and follow licensing requirements — for example, no piracy, malware or troll projects, and all code examples must avoid sexual and discriminatory language
@@ -30,11 +30,11 @@ It's okay if you're not great at English, or you use a translation tool — we w
 
 ## Treat all users with patience and respect...
 
-> Treat all users with patience and respect, and consider other people's personal circumstances (e.g. epilepsy, identity, plurality, PTSD, race, sexuality, etc)
+> Treat all users with patience and respect, and consider other people's personal circumstances (e.g. epilepsy, identity, plurality, PTSD, culture, race, sexuality, etc)
 
 The internet (and the world in general) is a big place, and it's filled with many types of people — all with their own experiences, bodies, memories and thought processes. It's important to take this fact into consideration when you're communicating with people, especially in public spaces. For example, consider the following points:
 
-* A user may be a member of a racial, societal, identity-related or other minority, so you should be welcoming towards those groups instead of making them feel uncomfortable or undesired.
+* A user may be a member of a cultural, racial, societal, identity-related or other minority, so you should be welcoming towards those groups instead of making them feel uncomfortable or undesired.
 * A user may be suffering from a mental illness that affects their behaviour in the community, so you should try to be patient with other users and step away from Discord if you start feeling angry or heated.
 * A user may have epilepsy or another photosensitive disorder, so you should not post flashing images or videos to avoid causing intense pain or seizures for people with those disorders.
 * A user may have grown up in a different country or culture from you, so you should avoid using slang or other terms that may be considered offensive.

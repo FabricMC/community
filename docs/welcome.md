@@ -21,7 +21,7 @@ The Fabric project is a modular and modern modding toolchain for Minecraft, prim
 
 1️⃣ Follow Discord's Terms of Service and Community Guidelines
 2️⃣ Use English if possible
-3️⃣ Treat all users with patience and respect, and consider other people's personal circumstances (e.g. epilepsy, identity, plurality, PTSD, race, sexuality, etc)
+3️⃣ Treat all users with patience and respect, and consider other people's personal circumstances (e.g. epilepsy, identity, plurality, PTSD, culture, race, sexuality, etc)
 4️⃣ Communicate in an appropriate and non-discriminatory manner, and don't provoke or harass others
 5️⃣ Don't ping/mention other users to draw attention to your support requests, or to be hostile/annoying
 6️⃣ Keep all projects legal and appropriate, and follow licensing requirements — for example, no piracy, malware or troll projects, and all code examples must avoid sexual and discriminatory language
