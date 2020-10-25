@@ -14,6 +14,7 @@ The Fabric project is a modular and modern modding toolchain for Minecraft, prim
 **»** Fabric Website: <https://fabricmc.net/>
 **»** Fabric Wiki: <https://fabricmc.net/wiki/>
 **»** Discord Invite: <https://discord.gg/v6v4pMv>
+**»** Apply to be a moderator: <https://airtable.com/shrVPkr9G08popoWn>
 
 ---
 
