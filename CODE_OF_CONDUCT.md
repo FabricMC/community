@@ -32,7 +32,7 @@ We value many things beyond technical expertise, including collaboration and sup
 
 # Scope
 
-This Code of Conduct applies to all spaces managed by Fabric. This includes, but is not limited to: the Discord server, our repositories on GitHub and any potential meet-ups. In addition, violations of this code outside these spaces may affect a person's ability to participate within them.
+This Code of Conduct applies to all spaces managed by Fabric. This includes, but is not limited to: the Discord server, our repositories on GitHub and any potential meet-ups. In addition, non-minor violations of this code outside these spaces may affect a person's ability to participate within them.
 
 The Fabric Code of Conduct applies equally to all members of the community, including staff.
 

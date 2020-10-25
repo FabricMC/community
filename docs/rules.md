@@ -120,6 +120,8 @@ If you're not sure about a name, then it may be best to avoid referring to it. W
 * Comments
 * What the equivalent Yarn name is for something in Forge/MCP, or other proprietary mappings
 
+If you're stuck on the last point, you may wish to look into projects like [Devoldefy](https://github.com/Runemoro/Devoldefy) and [Linkie (the Discord bot)](https://github.com/shedaniel/linkie-discord/wiki/Commands).
+
 On the other hand, if you do need to discuss something relating to proprietary mappings then you are allowed to post a link to an external source — for example, a GitHub project — under the following conditions:
 
 * You make it clear that the page or project you're linking to contains mentions of proprietary mappings
