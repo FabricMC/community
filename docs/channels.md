@@ -40,7 +40,7 @@ All projects posted in these channels need to be related to Fabric somehow — f
 
 * `#player-support`: This is where you go if your game is crashing with Fabric installed — you can ask about help with specific mods, with Fabric itself, or just to try and figure out why your game isn't working.
 
-* `#general-discussion` & `#general-discussion-2`: Our off-topic community hangs out in these channels. These are **discussion channels**, which means that **they are not meant for dumping images, videos, memes, shitposts or other media**. Please read the channel before you post, and try not to disrupt an ongoing conversation — if one of the channels is busy, you can always try the other one.
+* `#general-discussion` & `#general-discussion-2`: Our off-topic community hangs out in these channels. These are **discussion channels**, which means that **they are not meant for dumping images, videos, memes, shitposts or other media** (although you can post media if it actually contributes to the current discussion, or is intended to start a new one). Please read the channel before you post, and try not to disrupt an ongoing conversation — if one of the channels is busy, you can always try the other one.
 
 * `#requests`: Use this channel to request ideas for new mods. Please note that **this channel is only suitable for serious requests**, not shitposts or jokes. Additionally, this channel is not meant for discussion — use `#requests-discussion` for that.
 
