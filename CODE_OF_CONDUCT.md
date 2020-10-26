@@ -4,7 +4,7 @@ We are committed to providing a friendly, safe and welcoming environment for all
 
 ## Examples of behavior that contributes to creating a positive environment include:
 
-* Be kind and courteous to others
+* Being kind and courteous to others
 * Using welcoming and inclusive language
 * Being respectful of differing viewpoints and experiences
 * Collaborating with other community members
