@@ -1,0 +1,2 @@
+type: alias
+other: logs
