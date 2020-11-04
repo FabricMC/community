@@ -1,6 +1,6 @@
 # Tags
 
-This directory contains the tags that the bot will use. `.tag` files contain tag data (to avoid the parser trying
+This directory contains the tags that the bot will use. `.ytag` files contain tag data (to avoid the parser trying
 to load unrelated files) - they're basically Markdown files containing a YAML front matter.
 
 **Please note:** This system is currently in development, and may change significantly before release. This document
