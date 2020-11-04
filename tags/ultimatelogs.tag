@@ -1,2 +1,2 @@
 type: alias
-other: logs
+target: logs

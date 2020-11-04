@@ -41,7 +41,7 @@ Alias tags do not have Markdown content, and thus do not require the separator s
 ```yaml
 type: alias
 
-other: String  # The name of the other tag
+target: String  # The name of the target tag
 ```
 
 ## Type: Embed
