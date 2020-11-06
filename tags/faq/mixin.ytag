@@ -1,0 +1,18 @@
+type: text
+
+---
+
+Mixin is a trait/mixin and bytecode weaving framework for Java using ASM written by Mumfrey
+
+GitHub Repo - <https://github.com/SpongePowered/Mixin>
+
+Mixin Wiki - <https://github.com/SpongePowered/Mixin/wiki>
+
+Mixin related tricks:
+`!!mixincs` - A repo which contains some examples for mixins
+
+`!!mixinjd`/`!!mixinjavadoc` - A link to the offical Mixin javadoc
+
+`!!mcdev` - An Intellij plugin which adds useful helpers and sanity checks for using mixin
+
+`!!spongecord` - A link to the Sponge discord server, where Mumfrey offers support for Mixin in the `#mixin` channel
