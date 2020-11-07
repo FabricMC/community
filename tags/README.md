@@ -93,3 +93,34 @@ front matter options.
 ```yaml
 type: text
 ```
+
+## Substitutions
+
+The Markdown body of all tags can contain substitutions. These are simply strings that are provided as part of the tag
+invocation on Discord. For example, if we have a tag named `sub.ytag`:
+
+```
+type: text
+
+---
+
+First: {0}
+Second: {1}
+First again: {0}
+```
+
+You could make use of this by providing two extra arguments to the tag invocation:
+
+```
+??sub first-argument second-argument
+```
+
+This would result in the following:
+
+```md
+First: first-argument
+Second: second-argument
+First again: first-argument
+```
+
+**Note:** Tags with substitutions cannot be invoked without providing arguments for all substitutions.

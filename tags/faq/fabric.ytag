@@ -1,0 +1,22 @@
+type: embed
+
+colour: fabric
+embed:
+    title: Fabric
+    thumbnail:
+        url: "https://avatars0.githubusercontent.com/u/21025855"
+    fields:
+        -
+            name: Links
+            inline: true
+            value: |
+                [Homepage](https://fabricmc.net/)
+                [GitHub](https://github.com/FabricMC)
+                [Official Wiki](https://fabricmc.net/wiki)
+                [Discord Invite](https://discord.gg/v6v4pMv)
+
+---
+
+Fabric is a lightweight, experimental modding toolchain for Minecraft, authored by asiekierka and modmuss50.
+
+It has a few projects, ranging from Minecraft deobfuscation tools and a basic mod loader to a lightweight modular compatibility layer.

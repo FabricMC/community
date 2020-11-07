@@ -1,0 +1,25 @@
+type: text
+
+---
+
+```
+int -> I
+
+boolean -> Z
+
+void/no type -> V
+
+long -> J
+
+float -> F
+
+double -> D
+
+byte -> B
+
+char -> C
+
+short -> S
+
+array (type) -> [
+```

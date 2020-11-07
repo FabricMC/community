@@ -1,0 +1,30 @@
+type: text
+
+---
+
+io/github/mymod/mixin/MyClassMixin
+```java
+@Mixin(MyClass.class)
+public class MyClassMixin implements MyClassAccess {
+    @Override
+    public void access() {
+        System.out.println("Accessed!");
+    }
+}
+```
+
+io/github/mymod/access/MyClassAccess
+```java
+public interface MyClassAccess {
+    void access();
+}
+```
+
+To use it:
+```java
+public class Container {
+    public void slapHaykam(MyClass instance) {
+        ((MyClassAccess)instance).access(); // Will print "Accessed!"
+    }
+}
+```

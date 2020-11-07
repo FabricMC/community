@@ -1,0 +1,5 @@
+type: text
+
+---
+
+In most Fabric modding setups, you have to install Fabric (API), which you can download here: https://minecraft.curseforge.com/projects/fabric. Make sure to install the _latest version of Fabric (API) for the version of Minecraft you are using_. Fabric (API) is a mod that most mods depend on, that is installed separately from Fabric Loader like any other mod.
