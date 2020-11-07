@@ -1,2 +1,5 @@
-type: alias
-target: substitution/modrinthmod
+type: text
+
+---
+
+https://modrinth.com/mod/{{0}}
