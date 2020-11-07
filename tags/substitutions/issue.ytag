@@ -2,4 +2,4 @@ type: text
 
 ---
 
-https://github.com/{0}/issues/{1}
+https://github.com/{{0}}/issues/{{1}}

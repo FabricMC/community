@@ -2,4 +2,4 @@ type: text
 
 ---
 
-https://minecraft.gamepedia.com/{0}
+https://minecraft.gamepedia.com/{{0}}

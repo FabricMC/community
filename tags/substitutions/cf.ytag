@@ -2,4 +2,4 @@ type: text
 
 ---
 
-https://curseforge.com/minecraft/mc-mods/{0}
+https://curseforge.com/minecraft/mc-mods/{{0}}

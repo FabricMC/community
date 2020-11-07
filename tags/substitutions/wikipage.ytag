@@ -2,4 +2,4 @@ type: text
 
 ---
 
-https://fabricmc.net/wiki/{0}
+https://fabricmc.net/wiki/{{0}}

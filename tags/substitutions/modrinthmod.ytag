@@ -2,4 +2,4 @@ type: text
 
 ---
 
-https://modrinth.com/mod/{0}
+https://modrinth.com/mod/{{0}}

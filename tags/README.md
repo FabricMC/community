@@ -104,9 +104,9 @@ type: text
 
 ---
 
-First: {0}
-Second: {1}
-First again: {0}
+First: {{0}}
+Second: {{1}}
+First again: {{0}}
 ```
 
 You could make use of this by providing two extra arguments to the tag invocation:
