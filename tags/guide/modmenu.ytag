@@ -1,0 +1,8 @@
+type: text
+
+---
+
+Fabric doesn't come with a mod menu built-in. Here's the mod that adds it:
+<https://www.curseforge.com/minecraft/mc-mods/modmenu>
+Some mods integrate with Mod Menu and add in-game configuration screens.
+Click on the "Mods" button and select the mod you want to configure; if the mod integrates with Mod Menu, you'll see a "Settings" button on the top-right.

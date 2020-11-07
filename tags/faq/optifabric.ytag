@@ -1,5 +1,2 @@
-type: text
-
----
-
-Optifine and Fabric can be run together via OptiFabric: https://www.curseforge.com/minecraft/mc-mods/optifabric
+type: alias
+target: faq/optifine
