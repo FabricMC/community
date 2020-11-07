@@ -17,4 +17,4 @@ jobs:
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - run: docker run -v ./tags:/tags ghcr.io/fabricmc/fabric-discord-bot-tags:latest
+      - run: docker run -v ./tags:/tags ghcr.io/fabricmc/fabric-discord-bot:tags-latest
