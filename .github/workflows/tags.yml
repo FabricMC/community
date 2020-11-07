@@ -1,0 +1,13 @@
+name: Validate Tags
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+
+      - run: docker run -v ./tags:/tags ghcr.io/fabricmc/fabric-discord-bot-tags:latest
