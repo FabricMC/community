@@ -10,4 +10,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v1
+        with:
+          registry: ghcr.io
+          username: ${{ github.repository_owner }}
+          password: ${{ secrets.CR_PAT }}
+
       - run: docker run -v ./tags:/tags ghcr.io/fabricmc/fabric-discord-bot-tags:latest
