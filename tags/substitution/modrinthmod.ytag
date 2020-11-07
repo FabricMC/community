@@ -1,5 +1,2 @@
-type: text
-
----
-
-https://modrinth.com/mod/{{0}}
+type: alias
+target: substitution/mr
