@@ -15,6 +15,6 @@ jobs:
         with:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
-          password: ${{ secrets.CR_PAT }}
+          password: ${{ secrets.GITHUB_TOKEN }}
 
       - run: docker run -v ./tags:/tags ghcr.io/fabricmc/fabric-discord-bot-tags:latest
