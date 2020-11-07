@@ -2,5 +2,7 @@ type: text
 
 ---
 
-Because `ClientPlayNetworkHandler#onEntitySpawn` hardcodes all the entities that don't inherit from `LivingEntity` you must make your own packet
-You can look at `EntitySpawnS2CPacket` for what your packet should do and register it with `ClientSidePacketRegistry`. then all you need to do is override `CreateSpawnPacket` on your Entity with your new packet
+Anything inheriting directly from `Entity` must:
+1) Create a custom entity spawn packet for overriding `Entity.createSpawnPacket`, because `ClientPlayNetworkHandler.onEntitySpawn` is hardcoded to only support vanilla Non-LivingEntity
+or
+2) Inject into `ClientPlayerNetworkHandler.onEntitySpawn` and do handle the packet there.

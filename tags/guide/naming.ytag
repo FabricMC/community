@@ -1,0 +1,8 @@
+type: text
+
+---
+
+Classes should be named with the first letter of each word capitalized, like this: `ThisIsAClass`
+`static final` fields should be named in all caps, with underscores between each word, like this: `THIS_IS_STATIC_FINAL`
+Everything else (methods, variables, etc) should be named with the first letter of each word capitalized, but with the first letter lowercase, like this: `thisIsEverythingElse`
+Naming things like this in Java helps other people to understand your code more quickly.
