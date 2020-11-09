@@ -10,7 +10,7 @@ services:
     restart: always
 
     volumes:
-      - /home/docker/volumes/bot/git:/git
+      - /home/docker/volumes/bot:/data
 
     environment:
       - BOT_PREFIX=?
