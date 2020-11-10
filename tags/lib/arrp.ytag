@@ -2,4 +2,6 @@ type: text
 
 ---
 
+ARRP is a datagen api to generate mod assets and data at runtime
+
 https://github.com/Devan-Kerman/ARRP

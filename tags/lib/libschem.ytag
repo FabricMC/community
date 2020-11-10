@@ -2,4 +2,6 @@ type: text
 
 ---
 
+A schematic placer and parser that supports the sponge v2 format
+
 https://github.com/BoogieMonster1O1/LibSchem

@@ -2,4 +2,6 @@ type: text
 
 ---
 
+FibLib is an api for sending false data to the client such as fake blocks.
+
 https://github.com/Hephaestus-Dev/FibLib

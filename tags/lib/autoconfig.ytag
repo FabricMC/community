@@ -2,6 +2,8 @@ type: text
 
 ---
 
+Autoconfig is an annotation config api meant to store and load your data for mods to access and use
+
 Updated AutoConfig for 1.16+ :
 
 https://github.com/shedaniel/AutoConfig
