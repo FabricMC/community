@@ -1,0 +1,10 @@
+# Media
+
+This directory contains miscellaneous art and other media that we may decide to use to represent our community from time to time.
+
+If you'd like to create something to be put here, please let us know! As a reminder, everything in this repository is licensed under the [Creative Commons Attribution 4.0 International License](/LICENSE.md).
+
+# Contents
+
+* [Basic Splash by gdude2002](/media/basic-splash): A basic Discord invite splash screen
+* [Tater Wall by gdude2002](/media/tater-wall): A somewhat busy wallpaper or splash screen, mostly created using MagicaVoxel renders
