@@ -1,0 +1,15 @@
+type: text
+
+---
+
+```json
+[
+    "oak",
+    "spruce",
+    "birch",
+    "acacia",
+    "dark_oak",
+    "crimson",
+    "warped"
+]
+```
