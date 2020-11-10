@@ -1,0 +1,7 @@
+type: text
+
+---
+
+FallFlyingLib is an api that removes the hardcoded restriction on elytra's and allows mods to register their own elytras.
+
+https://github.com/adriantodt/FallFlyingLib
