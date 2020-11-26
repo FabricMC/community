@@ -1,0 +1,71 @@
+site_name: Fabric Community
+site_url: https://community.fabricmc.net
+
+nav:
+  - index.md
+  - rules.md
+  - CODE_OF_CONDUCT.md
+
+  - Discord:
+      - channels.md
+
+#  - getting-started.md
+#  - Concepts:
+#      - concepts/bot.md
+#      - concepts/extensions.md
+#      - concepts/events.md
+#      - concepts/checks.md
+#      - concepts/commands.md
+#      - concepts/converters.md
+
+repo_url: https://github.com/FabricMC/community
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/uCVtZaE
+      name: Join the Discord server
+
+    - icon: fontawesome/brands/github
+      link: https://github.com/FabricMC
+      name: Fabric on GitHub
+
+    - icon: fontawesome/solid/globe
+      link: https://fabricmc.net/
+      name: Main Fabric website
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+
+  features:
+    - navigation.instant
+
+  palette:
+    scheme: preferred
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - sane_lists
+
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+
+  - pymdownx.highlight:
+      linenums: true
+
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+  - toc:
+      permalink: true
