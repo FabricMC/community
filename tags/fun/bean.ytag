@@ -1,0 +1,13 @@
+type: embed
+
+colour: #2ECC71
+
+embed:
+  title: User beaned
+  footer:
+    text: "ID: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx • xx/xx/xxxx"
+
+---
+{{0}} has been beaned until Dec 24, 2063 at 07:23 (UTC).
+
+Infraction Reason: {{1}}
