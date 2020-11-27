@@ -1,0 +1,18 @@
+type: embed
+
+colour: blurple
+embed:
+  title: Using a Paste Site
+
+---
+
+When sharing a large piece of code or a log, you should use a paste site instead of uploading a file or dumping it in a large codeblock.
+Dumping your code/log in a code block or a message can make it difficult for other people to read previous messages.
+
+**Paste sites and their size limits:**
+
+**»** [GitHub Gist](https://gist.github.com/): 100 MiB / Requires membership
+**»** [Paste.gg](https://paste.gg/): 15 MiB / Optional membership
+**»** [Paste.ee](https://paste.ee/): 1 MiB / Optional membership (raises limit to 6 MiB)
+**»** [Pastebin.com](https://pastebin.com/): 512 KiB / Optional membership
+**»** [Hastebin.com](https://hastebin.com/): 400 KiB / Anonymous
