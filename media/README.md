@@ -8,3 +8,4 @@ If you'd like to create something to be put here, please let us know! As a remin
 
 * [Basic Splash by gdude2002](/media/basic-splash): A basic Discord invite splash screen
 * [Tater Wall by gdude2002](/media/tater-wall): A somewhat busy wallpaper or splash screen, mostly created using MagicaVoxel renders
+* [The Fabric and Loom logos](/media/unascribed): The official Fabric logo and an unused Loom logo, created by unascribed
