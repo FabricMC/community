@@ -5,8 +5,8 @@ colour: "#FF1A1A"
 
 embed:
   title: Go to sleep.
-  footer:
-    image: "https://cdn.discordapp.com/attachments/523633816078647296/783112912033546280/external-content.duckduckgo.com.jpg"
+  image:
+    url: "https://cdn.discordapp.com/attachments/523633816078647296/783112912033546280/external-content.duckduckgo.com.jpg"
 
 ---
 
