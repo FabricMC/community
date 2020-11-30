@@ -8,3 +8,4 @@ base:
         - fabricmc-discord/metrics
         - fabricmc-discord/modmail
         - fabricmc-discord/nginx
+        - fabricmc-discord/sentry

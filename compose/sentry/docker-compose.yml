@@ -1,0 +1,82 @@
+version: "3"
+
+services:
+  sentry-postgres:
+    image: postgres:9.5
+    container_name: sentry-postgres
+
+    restart: always
+
+    environment:
+      - POSTGRES_USER=sentry
+      - POSTGRES_PASSWORD=${DB_PASSWORD?:err}
+
+    volumes:
+      - /home/docker/volumes/sentry/postgres:/var/lib/postgresql/data
+
+  sentry-redis:
+    image: redis:3.2-alpine
+    container_name: sentry-redis
+
+    restart: always
+
+    volumes:
+      - /home/docker/volumes/sentry/redis:/data
+
+  sentry:
+    image: sentry:latest
+    container_name: sentry
+
+    command: run web --upgrade
+
+    ports:
+      - 9400:9000
+
+    environment:
+      - SENTRY_POSTGRES_HOST=sentry-postgres
+      - SENTRY_REDIS_HOST=sentry-redis
+
+      - SENTRY_DB_PASSWORD=${DB_PASSWORD?:err}
+      - SENTRY_DB_USER=sentry
+
+      - SENTRY_EMAIL_BACKEND=dummy
+      - SENTRY_SECRET_KEY=${SECRET_KEY?:""}
+
+    volumes:
+      - /home/docker/volumes/sentry/filestore:/var/lib/sentry/files
+
+  sentry-cron:
+    image: sentry:latest
+    container_name: sentry-cron
+
+    command: run cron
+
+    environment:
+      - SENTRY_POSTGRES_HOST=sentry-postgres
+      - SENTRY_REDIS_HOST=sentry-redis
+
+      - SENTRY_DB_PASSWORD=${DB_PASSWORD?:err}
+      - SENTRY_DB_USER=sentry
+
+      - SENTRY_SECRET_KEY=${SECRET_KEY?:err}
+
+    volumes:
+      - /home/docker/volumes/sentry/filestore:/var/lib/sentry/files
+
+  sentry-worker:
+    image: sentry:latest
+    container_name: sentry-worker
+
+    command: run worker
+
+    environment:
+      - SENTRY_POSTGRES_HOST=sentry-postgres
+      - SENTRY_REDIS_HOST=sentry-redis
+
+      - SENTRY_DB_PASSWORD=${DB_PASSWORD?:err}
+      - SENTRY_DB_USER=sentry
+
+      - SENTRY_SECRET_KEY=${SECRET_KEY?:err}
+
+    volumes:
+      - /home/docker/volumes/sentry/filestore:/var/lib/sentry/files
