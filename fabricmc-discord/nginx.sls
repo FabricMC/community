@@ -26,4 +26,4 @@ sentry.fabricmc.community:
     acme.cert:
         - webroot: /srv/acme
         - renew: 14
-        - certname: l.modm.us
+        - certname: sentry.fabricmc.community
