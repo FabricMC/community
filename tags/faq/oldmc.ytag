@@ -1,0 +1,7 @@
+type: text
+
+---
+
+Fabric isn't officially available for {{0}}, and nor are most Fabric mods, including Fabric API. You probably want Forge or ModLoader for {{0}}, as that is what most mods on {{0}} are for.
+
+If you definitely want Fabric, the third-party [Cursed Legacy](https://minecraft-cursed-legacy.github.io/) or [Legacy Fabric](https://github.com/Legacy-Fabric) projects may be what you want, however they don't have many mods and aren't currently known to be compatible with Forge or ModLoader.
