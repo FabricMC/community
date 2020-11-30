@@ -1,0 +1,13 @@
+
+type: embed
+
+colour: "#33CCFF"
+
+embed:
+  title: Go the fuck to sleep
+  footer:
+    text: "{{0}} go the fuck to sleep."
+
+---
+
+{{0}} go get some rest.
