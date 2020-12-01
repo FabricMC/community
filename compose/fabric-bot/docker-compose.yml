@@ -17,11 +17,13 @@ services:
       - DB_URL=mysql://fabric-bot-db/fabric_bot
       - DB_USERNAME=fabric_bot
       - ENVIRONMENT=production
+      - SENTRY_ENVIRONMENT=production
 
       - BOT_TOKEN
       - DB_PASSWORD
       - GITHUB_ORG
       - GITHUB_TOKEN
+      - SENTRY_DSN
 
   fabric-bot-db:
     image: mariadb:10

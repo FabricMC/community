@@ -10,7 +10,8 @@ fabric_bot:
             DB_PASSWORD: "{{ pillar["env"]["FABRIC_BOT_DB_PASSWORD"] }}"
             GITHUB_ORG: "{{ pillar["env"]["GITHUB_ORG"] }}"
             GITHUB_TOKEN: "{{ pillar["env"]["GITHUB_TOKEN"] }}"
-    
+            SENTRY_DSN: "{{ pillar["env"]["FABRIC_BOT_SENTRY_DSN"] }}"
+
     module.run:
         - name: dockercompose.up
         - path: /srv/compose/fabric-bot
