@@ -24,7 +24,7 @@ services:
       - /home/docker/volumes/sentry/redis:/data
 
   sentry:
-    image: sentry:latest
+    image: getsentry/sentry:latest
     container_name: sentry
 
     command: run web --upgrade
@@ -46,7 +46,7 @@ services:
       - /home/docker/volumes/sentry/filestore:/var/lib/sentry/files
 
   sentry-cron:
-    image: sentry:latest
+    image: getsentry/sentry:latest
     container_name: sentry-cron
 
     command: run cron
@@ -64,7 +64,7 @@ services:
       - /home/docker/volumes/sentry/filestore:/var/lib/sentry/files
 
   sentry-worker:
-    image: sentry:latest
+    image: getsentry/sentry:latest
     container_name: sentry-worker
 
     command: run worker
