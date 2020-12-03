@@ -1,6 +1,6 @@
 type: embed
 
-color: blue
+colour: blue
 embed:
   title: Alternative Minecraft Launchers
   fields:
