@@ -7,7 +7,7 @@ embed:
         - name: Wait, huh?
           value: To include a dependency that is **not** a mod (I.E a generic Java library), you must _shadow_ it.
         - name: ...and what does that mean?
-          value: Simple: you add the Shadow plugin to your project, and then use the `shadow` command in your `dependencies` block to add that library to your mod!
+          value: "Simple: you add the Shadow plugin to your project, and then use the `shadow` command in your `dependencies` block to add that library to your mod!"
         - name: ...and how do I do that?
           value: Read the docs! https://imperceptiblethoughts.com/shadow/introduction/
 
