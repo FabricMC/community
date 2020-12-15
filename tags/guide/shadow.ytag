@@ -1,6 +1,6 @@
 type: embed
 
-color: black
+colour: black
 embed:
     title: Shadowing Dependencies (or, Non-Mod Dependencies and You)
 
