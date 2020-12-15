@@ -3,13 +3,21 @@ type: embed
 color: black
 embed:
     title: Shadowing Dependencies (or, Non-Mod Dependencies and You)
+
     fields:
         - name: Wait, huh?
+          inline: false
           value: To include a dependency that is **not** a mod (I.E a generic Java library), you must _shadow_ it.
+
         - name: ...and what does that mean?
-          value: "Simple: you add the Shadow plugin to your project, and then use the `shadow` command in your `dependencies` block to add that library to your mod!"
+          inline: false
+          value: _Shadowing_ simply means taking a library and including it in your distribution of the thing using said library (in this case, your mod).
+
         - name: ...and how do I do that?
-          value: Read the docs! https://imperceptiblethoughts.com/shadow/introduction/
+          inline: false
+          value: Simple, you read the docs! https://imperceptiblethoughts.com/shadow/introduction/
 
 ----
 
+Want to add some cool Java library you found to your Fabric mod?
+No problem, just shadow it!
