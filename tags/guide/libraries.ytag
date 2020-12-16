@@ -34,6 +34,12 @@ embed:
                 shadow "org.example:library:1.0.0"
             }```
             `shadow` can also do a bunch of other cool things! More information can be found here: https://imperceptiblethoughts.com/shadow/introduction/
+            
+        - name: So... which one should I use?
+          inline: false
+          value: |
+            While both of these methods work, using `shadow` is the recommended method
+            due to a lesser chance of conflicts caused by two mods including the same library.
 
 ---
 
