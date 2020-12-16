@@ -15,19 +15,25 @@ embed:
         - name: What's `include`?
           inline: false
           value: |
-            `include` allows you to simply package the library JAR into your own mod file, and is done very simply:```gradle
+            `include` allows you to simply package the library JAR into your own mod file.
+            Using `include` is very simple, just add this to your `build.gradle` file:```gradle
             dependencies {
                 include "org.example:library:1.0.0"
-            }
-            ```
-            Note that if two mods both `include` the same library, the two copies might conflict.
+            }```Note that if two mods both `include` the same library, the two copies might conflict.
 
         - name: ...and what's `shadow`?
           inline: false
           value: |
-            `shadow` is a more complex version of `include` - notably, it allows you to package a _local copy_ of the library into your mod,
+            `shadow` is more complex than `include` - notably, it allows you to package a _local "personal" copy_ of the library into your mod,
             which means that your copy of the library won't conflict with another mod's `shadow`ed (or even `include`d) copy of said library.
-            More information can be found here: https://imperceptiblethoughts.com/shadow/introduction/
+            To use, add the `shadow` plugin to your `build.gradle` file, as such:```gradle
+            plugins {
+                id 'com.github.johnrengelman.shadow' version '6.1.0'
+            }```Then, `shadow` your library:``gradle
+            dependencies {
+                shadow "org.example:library:1.0.0"
+            }```
+            `shadow` can also do a bunch of other cool things! More information can be found here: https://imperceptiblethoughts.com/shadow/introduction/
 
 ---
 
