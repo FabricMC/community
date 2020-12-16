@@ -1,0 +1,35 @@
+type: embed
+
+colour: black
+embed:
+    title: Non-Mod Dependencies and You
+
+    fields:
+        - name: Wait, huh?
+          inline: false
+          value: |
+            Sometimes you want to add a library that is _not_ a Fabric mod. There are 2 ways to do this:
+            * Using `include`
+            * Using `shadow`
+
+        - name: What's `include`?
+          inline: false
+          value: |
+            `include` allows you to simply package the library JAR into your own mod file, and is done very simply:```gradle
+            dependencies {
+                include "org.example:library:1.0.0"
+            }
+            ```
+            Note that if two mods both `include` the same library, the two copies might conflict.
+
+        - name: ...and what's `shadow`?
+          inline: false
+          value: |
+            `shadow` is a more complex version of `include` - notably, it allows you to package a _local copy_ of the library into your mod,
+            which means that your copy of the library won't conflict with another mod's `shadow`ed (or even `include`d) copy of said library.
+            More information can be found here: https://imperceptiblethoughts.com/shadow/introduction/
+
+---
+
+Want to add some cool Java library you found to your Fabric mod?
+No problem, just read on!
