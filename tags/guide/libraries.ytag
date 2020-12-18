@@ -24,7 +24,7 @@ embed:
         - name: ...and what's `shadow`?
           inline: false
           value: |
-            `shadow` is more complex than `include` - notably, it allows you to package a _local "personal" copy_ of the library into your mod,
+            `shadow` is more complex than `include` - notably, it allows you to package a _local relocated copy_ of the library into your mod,
             which means that your copy of the library won't conflict with another mod's `shadow`ed (or even `include`d) copy of said library.
             To use, add the `shadow` plugin to your `build.gradle` file, as such:```gradle
             plugins {
@@ -32,13 +32,20 @@ embed:
             }```Then, `shadow` your library:```gradle
             dependencies {
                 shadow "org.example:library:1.0.0"
-            }```
+            }```Then, to configure relocation:```gradle
+            shadowJar {
+                relocate "library.original.root.package" "library.new.root.package"
+            }
+            ```It's recommended to make the `"library.new.root.package"` a subpackage of your mod for clarity.
+            If your mod's root package is `"modmaker.coolmod"`, 'd be a good idea to relocate your library to `"modmaker.coolmod.shadowed.library"`.
+            `shadow` will now automagically relocate that library to its new local spot, and will make your code point to said local spot!
+            
             `shadow` can also do a bunch of other cool things! More information can be found here: https://imperceptiblethoughts.com/shadow/introduction/
             
         - name: So... which one should I use?
           inline: false
           value: |
-            While both of these methods work, using `shadow` is the recommended method
+            While both of these methods work perfectly well, using `shadow` with relocation is the recommended method
             due to a lesser chance of conflicts caused by two mods including the same library.
 
 ---
