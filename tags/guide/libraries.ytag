@@ -35,8 +35,7 @@ embed:
             }```Then, to configure relocation:```gradle
             shadowJar {
                 relocate "library.original.root.package" "library.new.root.package"
-            }
-            ```It's recommended to make the `"library.new.root.package"` a subpackage of your mod for clarity.
+            }```It's recommended to make the `"library.new.root.package"` a subpackage of your mod for clarity.
             If your mod's root package is `"modmaker.coolmod"`, 'd be a good idea to relocate your library to `"modmaker.coolmod.shadowed.library"`.
             `shadow` will now automagically relocate that library to its new local spot, and will make your code point to said local spot!
             
