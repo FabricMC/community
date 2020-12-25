@@ -1,0 +1,17 @@
+type: text
+
+---
+
+To start modding Minecraft using Fabric, it's strongly recommended to know Java.
+Minecraft, in its codebase, and mods, using Fabric API, use more advanced Java concepts like lambdas, generics and polymorphism.
+If you don't know all of these concepts, you may have some difficulties modding.
+
+**Here are some online resources that will help learning Java**
+JetBrains Academy ~~(free online course)~~: <https://www.jetbrains.com/academy/>
+Codeacademy (free online course): <https://www.codecademy.com/learn/learn-java>
+University of Helsinki (free online course): <https://java-programming.mooc.fi/>
+Basic Java Tutorials: <https://docs.oracle.com/javase/tutorial/>
+
+**After Learning Java**
+For most mods you will want to make, you will have to use the Spongepowered Mixin Java library.
+To learn more about Mixin, you can use the `faq/mixin` bot tag by typing `??faq/mixin` in <#523633816078647296> .
