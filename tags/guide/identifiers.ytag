@@ -1,0 +1,22 @@
+type: text
+
+---
+
+**How to create `Identifier`s *neatly***
+
+In your main mod class or a helper class:
+(in this example, `YourMod`)
+```java
+public static final String MODID = "yourmod";
+
+// ...
+
+public static Identifier id(String path) {
+    return new Identifier(YourMod.MODID, path);
+}
+```
+To use it:
+```java
+YourMod.id("myitem")                    // yourmod:myitem
+YourMod.id("textures/gui/mygui.png")    // yourmod:textures/gui/mygui.png
+```
