@@ -1,0 +1,28 @@
+type: embed
+
+colour: blue
+embed:
+  title: Alternative Minecraft Launchers
+  fields:
+    -
+      name: Advantages of Using an Alternative Launcher
+      inline: false
+      value: |
+        * Most alternative launchers have one-click installs for Fabric
+        * Some alternative launchers have built-in mod downloading and updating
+        * Designed specifically for modded Minecraft
+        * Most alternative launchers automatically create separate folders for instances which helps you separate your saves
+    -
+      name: List of Some Alternative Launchers
+      inline: false
+      value: |
+        * [MultiMC](https://multimc.org/)
+        * [GDLauncher](https://gdevs.io/)
+        * [Koala Launcher](https://koalalauncher.com/) (A fork of GDLauncher)
+        * [Technic Launcher](https://www.technicpack.net/) (Modpack only)
+        * [ATLauncher (**Not TLauncher**)](https://atlauncher.com/) (Modpack only)
+
+---
+
+The default, vanilla Minecraft Launcher is oftentimes not enough to manage a lot of modded instances.
+For that reason, alternative Minecraft launchers were created.

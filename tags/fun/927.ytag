@@ -1,5 +1,2 @@
-type: text
-
----
-
-https://xkcd.com/927
+type: alias
+target: fun/standards

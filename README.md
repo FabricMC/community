@@ -11,6 +11,10 @@ This repo is licensed under the CC-BY 4.0 license.
 For our community documentation, take a look at [the `docs` directory](/docs). It contains policy documents that all 
 community members should be aware of, so we suggest that everyone reads it!
 
+## Media
+
+Sometimes, the community produces Fabric-related art or logos. If someone creates art and provides a license for it, we're happy to add it to [the `media` directory](/media)!
+
 ## Tags
 
 Our Discord bot provides quick tags that can be inserted into a discussion when needed. You'll find them stored within
