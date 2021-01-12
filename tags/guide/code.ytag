@@ -7,4 +7,4 @@ You can use codeblocks in discord as shown below:
 code
 \`\`\`
 
-You can also specify the syntax highlighting to use by specifying the language after the last `
+You can also specify the syntax highlighting to use by specifying the language after the last backtick (`) on the top.
