@@ -1,0 +1,5 @@
+type: text
+
+---
+
+Add `-Dfabric.log.level=debug` to the VM arguments when running in a development environment
