@@ -14,4 +14,4 @@ Under `commonProperties`, add `fabric.log.level=debug` to enable debugging
 
 **How to access the VM arguements in an IDE (Only works with imported run configurations, not on gradle run configurations):**
 IntelliJ: Click the dropdown for the run configurations, then `Edit Configurations`. Click on the configuration you want to add the arguement to, then add the arguement above to the `VM Arguements` field.
-Eclipse: Click the dropdown for the runs, then `Run Configurations`. Select the run you want to edit, then click on the arguements tab. Add your arguement to the `Program Arguments` section.
+Eclipse: Click the dropdown for the runs, then `Run Configurations`. Select the run you want to edit, then click on the arguments tab. Add your arguement to the `Program Arguments` section.
