@@ -3,5 +3,6 @@ type: text
 ---
 
 `(({{0}}) (Object) this)`
-This can be used to access public fields/methods for `{{0}}` without the use of a `@Shadow` field/method or to pass in `this` to a method that requires a `{{0}}` as a parameter.
-This will not work for private or protected fields or methods. 
+This can be used to pass in `this` to a method that requires a `{{0}}` as a parameter.
+
+A `@Shadow` should be used to access methods and fields of `{{0}}`, but `(({{0}}) (Object) this)` can be used to get access to public methods and fields and should be used in limitation.
