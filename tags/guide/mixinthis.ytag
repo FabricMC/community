@@ -3,5 +3,5 @@ type: text
 ---
 
 `(({{0}}) (Object) this)`
-This can be used to access public methods or fields for {{0}} without the use of a `@Shadow` field or method.
+This can be used to access public fields/methods for `{{0}}` without the use of a `@Shadow` field/method or to pass in `this` to a method that requires a `{{0}}` as a parameter.
 This will not work for private or protected fields or methods. 
