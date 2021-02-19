@@ -2,7 +2,7 @@ type: embed
 
 colour: red
 embed:
-  title: Enabling Debug Logs for Fabric
+    title: Enabling Debug Logs for Fabric
 
 ---
 
