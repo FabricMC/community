@@ -1,6 +1,6 @@
 type: embed
 
-colour: red
+colour: #FF0000
 embed:
     title: Enabling Debug Logs for Fabric
 
