@@ -6,6 +6,9 @@ for our community and its services — in particular, [our Discord server, Fabri
 If you're running a community - and you like how we run ours - feel free to adapt our documents for your own use!
 This repo is licensed under the CC-BY 4.0 license.
 
+We support ALL modding communities except ones that target anarchy servers and make utility mods, we normally hold no exceptions for anybody, 
+but we just felt like being massive dickheads. We even decided to silence discussion about the topic becuase we know we are wrong!
+
 ## Documentation
 
 For our community documentation, take a look at [the `docs` directory](/docs). It contains policy documents that all 
