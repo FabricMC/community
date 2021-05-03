@@ -1,4 +1,4 @@
 type: text
 
 ---
-Some mods include a old version of Cardinal Components Api that is incompatible with the latest fapi. To fix the issue install the latest version of it here: <https://www.curseforge.com/minecraft/mc-mods/cardinal-components/files/3295352>
+Some mods include an old version of Cardinal Components API that is incompatible with the latest version of Fabric API. To fix the issue install the latest version of it here: <https://www.curseforge.com/minecraft/mc-mods/cardinal-components/files/3295352>
