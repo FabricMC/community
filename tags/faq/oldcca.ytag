@@ -1,0 +1,4 @@
+type: text
+
+---
+Some mods include a old version of Cardinal Components Api that is incompatible with the latest fapi. To fix the issue install the latest version of it here: <https://www.curseforge.com/minecraft/mc-mods/cardinal-components/files/3295352>
