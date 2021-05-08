@@ -14,4 +14,4 @@ Basic Java Tutorials: <https://docs.oracle.com/javase/tutorial/>
 
 **After Learning Java**
 For most mods you will want to make, you will have to use the Spongepowered Mixin Java library.
-To learn more about Mixin, you can use the `faq/mixin` bot tag by typing `??faq/mixin` in <#523633816078647296> .
+To learn more about Mixin, you can use the `faq/mixin` bot tag by typing `!!faq/mixin` in <#523633816078647296> .
