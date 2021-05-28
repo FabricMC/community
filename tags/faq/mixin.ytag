@@ -10,5 +10,5 @@ Fabric Wiki tutorial: <https://fabricmc.net/wiki/tutorial:mixin_introduction>
 Cheatsheet: <https://github.com/2xsaiko/mixin-cheatsheet/blob/master/README.md>
 
 See also:
-`??mcdev` - An IntelliJ plugin which adds useful helpers and inspections for using mixin
-`??spongecord` - The Sponge Discord server, with official support for Mixin in the `#mixin` channel
+`!!mcdev` - An IntelliJ plugin which adds useful helpers and inspections for using mixin
+`!!spongecord` - The Sponge Discord server, with official support for Mixin in the `#mixin` channel
