@@ -1,0 +1,7 @@
+type: text
+
+---
+
+Rayon is an api that allows mod authors to create entities which simulate realistic physics.
+
+https://github.com/LazuriteMC/Rayon
