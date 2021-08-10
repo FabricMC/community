@@ -112,7 +112,7 @@ First again: {{0}}
 You could make use of this by providing two extra arguments to the tag invocation:
 
 ```
-??sub first-argument second-argument
+!!sub first-argument second-argument
 ```
 
 This would result in the following:
