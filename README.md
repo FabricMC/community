@@ -13,7 +13,7 @@ community members should be aware of, so we suggest that everyone reads it!
 
 ## Media
 
-Sometimes, the community produces Fabric-related art or logos. If someone creates art and provides a license for it, we're happy to add it to [the `media` directory](/media)!
+Sometimes, the community produces Fabric-related art or logos. If someone creates art and provides a free license for it, we're happy to add it to [the `media` directory](/media)!
 
 ## Tags
 
