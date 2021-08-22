@@ -8,4 +8,4 @@ server -> specific client : Use `ServerPlayerEntity#sendMessage`
 
 client -> server : Use `MinecraftClient.getInstance().player.sendChatMessage(...)`
 
-client -> hud : Use `MinecraftClient.getInstance().getChatHud().addMessage(...)
+client -> hud : Use `MinecraftClient.getInstance().getChatHud().addMessage(...)`
