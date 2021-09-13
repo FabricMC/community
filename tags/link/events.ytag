@@ -2,4 +2,4 @@ type: text
 
 ---
 
-A list of Fabric API events/callbacks can be found at https://fabricmc.net/wiki/tutorial:callbacks.
+A list of Fabric API events/callbacks can be found at https://fabricmc.net/wiki/tutorial:callbacks, for a more complete and up to date list, refer to https://jamalam.gitbook.io/fabric-tutorials/events/list-of-fabric-api-events.
