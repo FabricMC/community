@@ -4,5 +4,5 @@ type: text
 
 # Adoptium (AdoptOpenJDK)
 
-[Java 16](https://adoptium.net/archive.html?variant=openjdk16&jvmVariant=hotspot) for Minecraft 1.17 and later
+[Java 17](https://adoptium.net/?variant=openjdk17&jvmVariant=hotspot) for Minecraft 1.17 and later
 [Java 8](https://adoptium.net/archive.html?variant=openjdk8&jvmVariant=hotspot) for Minecraft 1.16 and earlier
