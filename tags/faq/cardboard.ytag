@@ -2,8 +2,10 @@ type: text
 
 ---
 
-**Cardboard is highly NOT recommended to use**
-
-For more information about Cardboard, please check out this gist:
+Cardboard is currently experimental/unfinished, with some significant comptability challenges and you *might* experience some problems using it.
 
 Gist by Patbox on why Cardboard is not recommended: <https://gist.github.com/Patbox/e44844294c358b614d347d369b0fc3bf>
+
+However, theres a public list on some Fabric mods that have the same functionality of a few Spigot plugins:
+
+Repository by Yitzy299: <https://github.com/yitzy299/spigot-to-fabric>
