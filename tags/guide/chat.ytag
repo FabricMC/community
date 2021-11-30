@@ -2,10 +2,10 @@ type: text
 
 ---
 
-server -> all clients : Use `MinecraftServer#getPlayerManager` and `PlayerManager#broadcastChatMessage`
+To send a message from server to all clients: `MinecraftServer server = ...; server.getPlayerManager().broadcast(...);`
 
-server -> specific client : Use `ServerPlayerEntity#sendMessage`
+To send a message from server to specific client: `ServerPlayerEntity player = ...; player.sendMessage(...);`
 
-client -> server : Use `MinecraftClient.getInstance().player.sendChatMessage(...)`
+To send a message from client to server: `MinecraftClient.getInstance().player.sendChatMessage(...);`
 
-client -> hud : Use `MinecraftClient.getInstance().getChatHud().addMessage(...)`
+To add a message to HUD on client: `MinecraftClient.getInstance().inGameHud.getChatHud().addMessage(...);`
