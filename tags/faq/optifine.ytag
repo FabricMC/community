@@ -4,13 +4,10 @@ type: text
 
 OptiFine doesn't support Fabric natively.
 
-If you are willing to try alternatives (and don't need shaders), please look at this list:
+If you are willing to try alternatives, please look at this list:
 <https://gist.github.com/LambdAurora/1f6a4a99af374ce500f250c6b42e8754>
 
-If you need shaders but not OptiFine, Iris is the mod for you, find more about it here:
-<https://irisshaders.net/download.html>
-
-If, however, you really *really* want OptiFine and shaders, please know first OptiFine can cause heavy incompatibilities that are, in some cases, not easy to fix.
+If, however, you really *really* want OptiFine, please know first OptiFine can cause heavy incompatibilities that are, in some cases, not easy to fix.
 
 OptiFabric is a mod that allows OptiFine to run on Fabric but be aware that some mods will not bother to provide compatibility for it, so use it at your own risk:
 <https://www.curseforge.com/minecraft/mc-mods/optifabric>
