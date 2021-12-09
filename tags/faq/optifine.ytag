@@ -4,8 +4,8 @@ type: text
 
 OptiFine doesn't support Fabric natively.
 
-If you are willing to try alternatives (and don't need shaders), please look at this list:
-<https://gist.github.com/LambdAurora/1f6a4a99af374ce500f250c6b42e8754>
+If you are willing to try alternatives, please look at this list:
+<https://lambdaurora.dev/optifine_alternatives>
 
 If you need shaders but not OptiFine, Iris is the mod for you, find more about it here:
 <https://irisshaders.net/download.html>
