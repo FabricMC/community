@@ -5,15 +5,7 @@ type: text
 To protect from the critical Log4j RCE vulnerability (CVE-2021-44228), both the server owner and the users must take some actions.
 
 **Fabric Servers**: 
-- 1.18: Update to 1.18.1 if possible, or see the 1.17 section
-- 1.17: Update to Fabric Loader 0.12.9 or above
-- 1.16 and below: Check the official guide for how to add the Log4j profile.
-
-Official guide for server owners: <https://www.minecraft.net/en-us/article/important-message--security-vulnerability-java-edition>
+Update to 1.18.1 if possible, or update Fabric Loader to 0.12.10.
 
 **Fabric Clients**:
-- Using the official launcher: Restart the game and the launcher.
-- Using MultiMC: Restart the game and the launcher.
-- Using GDLauncher with Minecraft 1.17+: Update GDLauncher.
-- Using GDLauncher with Minecraft 1.16 and below: Use the official launcher or MultiMC for now.
-- Note that singleplayer mode should be safe in all versions or launchers.
+If you are using the official launcher or MultiMC, restarting the game and the launcher should be enough. If not, you can update the Fabric Loader version to 0.12.10.
