@@ -1,0 +1,12 @@
+type: text
+
+---
+
+If you are getting a `SSLHandshakeException` when using the installer it usually means that something is messing with ssl certificates.
+
+This is often caused by antiviruses, especailly **eset**, which intercept and scan incomming trafic. They often don't use proper cerificates when sending the data forward so they break a lot of apps (including fabric installer).
+
+To fix this try these **in order**:
+ 1. Disable ssl filtering on your antivirus if possible.
+ 2. Disable the antivirus fully.
+ 3. Try using a VPN.
