@@ -4,7 +4,7 @@ type: text
 
 Mappings are an essential part of modding Minecraft with any tool. 
 Mappings change the fields, methods, classes, and parameters from unusable nonsense like `cdr.a` into more readable code like `net.minecraft.Block.Blocks.AIR`.
-The mappings Fabric uses are created an maintained by the Fabric community and are called "yarn mappings".
+The mappings Fabric uses are created and maintained by the Fabric community and are called "yarn mappings".
 
 Fabric mappings are used on top of intermediaries so that the mappings generally work from version to version.
 Intermediaries are also a type of mapping that stays consistant through versions. 
