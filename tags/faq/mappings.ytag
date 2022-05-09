@@ -1,0 +1,13 @@
+type: text
+
+---
+
+Mappings are an essential part of modding Minecraft with any tool. 
+Mappings change the fields, methods, classes, and parameters from unusable nonsense like `f.o.o.b.a` into more readable code like `net.minecraft.Block.Blocks.AIR`.
+The mappings Fabric uses are created an maintained by the Fabric community and are called "yarn mappings".
+
+There are a variety of different mappings people have made, such as Spigot mappings, Mojang mappings, and MCP mappings.
+You do not necessarily need to know what mappings are in order to mod the game with Fabric, but it certainly does help.
+The mappings that Fabric uses are available here, with every version that we have mapped being under a seperate branch: <https://github.com/FabricMC/yarn>.
+
+---
