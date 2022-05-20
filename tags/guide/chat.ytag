@@ -2,7 +2,7 @@ type: text
 
 ---
 
-To send a message from server to all clients: `MinecraftServer server = ...; server.getPlayerManager().broadcast(...);`
+To send a message from server to all clients: `MinecraftServer server = ...; server.getPlayerManager().broadcast(...);` (In 1.19+ there are several overloads; check the javadoc for details. If unsure, use `broadcast(Text, RegistryKey<MessageType>)`. Use `MessageType.SYSTEM` if you do not know which message types to pass.)
 
 To send a message from server to specific client: `ServerPlayerEntity player = ...; player.sendMessage(...);`
 
