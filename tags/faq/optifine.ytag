@@ -5,7 +5,7 @@ type: text
 OptiFine doesn't support Fabric natively.
 
 If you are willing to try alternatives, please look at this list:
-<https://github.com/FeltMC/optifine_alternatives>
+<https://fabricmc.net/wiki/optifine-alternatives>
 
 If you need shaders but not OptiFine, Iris is the mod for you, find more about it here:
 <https://irisshaders.net/download.html>
