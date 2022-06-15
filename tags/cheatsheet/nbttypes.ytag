@@ -17,4 +17,4 @@ COMPOUND -> 10
 INT_ARRAY -> 11
 LONG_ARRAY -> 12
 ```
-https://github.com/FabricMC/fabric/blob/94ecb00e4ea932c32e9a07b0031bacfb3468d07f/fabric-api-base/src/main/java/net/fabricmc/fabric/api/util/NbtType.java
+https://maven.fabricmc.net/docs/yarn-1.19+build.4/net/minecraft/nbt/package-summary.html
