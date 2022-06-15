@@ -1,0 +1,44 @@
+type: text
+
+---
+
+Fabric itself does not include APIs to schedule something in the future.
+
+DO NOT use threads or `java.util.Timer`. (This can cause a crash!) Instead:
+
+- If you are making a block do something in the future: `world.createAndScheduleBlockTick` + override `scheduledTick` in your `Block`.
+- If you are making a custom tickable stuff (usually block entity/entity) do something in the future/periodically: see below, but instead of Mixin just implement yourself
+- If you are making a vanilla tickable thing (world, server, etc) do something in the future/periodically: use the following mixin.
+
+```java
+@Mixin(StuffToTick.class) // ServerWorld, MinecraftServer, etc
+public class StuffTimer implements StuffTimerAccess {
+    @Unique
+    private long ticksUntilSomething;
+
+    @Inject(method = "tick", at = @At("TAIL"))
+    private void onTick(CallbackInfo ci) { // Fix parameters as needed
+        if (--this.ticksUntilSomething <= 0L) {
+            doSomething();
+            // If you want to repeat this, reset ticksUntilSomething here.
+        }
+    }
+
+    @Override
+    public void yourmod_setTimer(long ticksUntilSomething) {
+        this.ticksUntilSomething = ticksUntilSomething;
+    }
+}
+```
+
+```java
+public interface StuffTimerAccess {
+    void yourmod_setTimer(long ticksUntilSomething);
+```
+
+Usage:
+
+```java
+MinecraftServer server;
+((StuffTimerAccess) server).yourmod_setTimer(100L); // do something after 100 ticks
+```

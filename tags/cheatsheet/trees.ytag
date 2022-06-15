@@ -10,6 +10,7 @@ type: text
     "acacia",
     "dark_oak",
     "crimson",
-    "warped"
+    "warped",
+    "mangrove"
 ]
 ```
