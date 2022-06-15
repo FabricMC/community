@@ -34,6 +34,7 @@ public class StuffTimer implements StuffTimerAccess {
 ```java
 public interface StuffTimerAccess {
     void yourmod_setTimer(long ticksUntilSomething);
+}
 ```
 
 Usage:
