@@ -4,10 +4,12 @@ type: text
 
 In Minecraft code, `@Deprecated` usually does not actually mean `@Deprecated`. However why the methods are deprecated can mean different things depending on the context.
 
-In `Block`, deprecated methods mean "override, not call". This is because there is a corresponding method in `BlockState` you should call instead.
+In `AbstractBlock` (and its subclass `Block`), deprecated methods mean "override, not call". This is because there is a corresponding method in `BlockState` you should call instead. **Overriding is fine - that is expected.**
 
-In `ChunkRegion`, the deprecated `ServerWorld getWorld()` method means, "do not modify chunks there". This is because chunk modifications should be done to the `Chunks` in the `ChunkRegion`. Modifying chunks on the `ServerWorld` here can cause the game to deadlock.
+In `ChunkRegion`, the deprecated `ServerWorld getWorld()` method means, "do not modify chunks there". This is because chunk modifications should be done to the `Chunk`s in the `ChunkRegion`. Modifying chunks on the `ServerWorld` here can cause the game to deadlock.
 
-In `GlStateManager`, the deprecated methods are actually deprecated. The reason behind that is you should be calling the corresponding methods in `RenderSystem`.
-
-In `RenderSystem`, the deprecated methods starting in 20w17a correspond to methods that should be called in the `MatrixStack` or the `VertexConsumers` or somewhere else, such as `pushMatrix`, `popMatrix`, `translatef`, `loadIdentity`. However some of these methods are not consistently deprecated, so caution should be taken when calling deprecated methods from `RenderSystem`.
+Other common `@Deprecated` things that are actually deprecated:
+- `ThreadSafeRandom` and `Random.createThreadSafe`: Deprecated due to its indeterministic nature. Randoms should never be used across threads.
+- Intrusive registry entry and `getRegistryEntry`: Deprecated as they are for compatibility purposes only.
+- `SharedConstants` fields: Replaced with `SharedConstants.getGameVersion()`.
+- `WorldView.getSeaLevel`: Deprecated because the value is hard-coded. Query from `ChunkGenerator` instead.

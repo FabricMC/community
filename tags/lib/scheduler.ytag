@@ -1,7 +1,0 @@
-type: text
-
----
-
-Working Scheduler is an scheduler api that is intended for use by fabric mods. It provides a fast and easy alternative to the minecraft's tick scheduler.
-
-https://github.com/natanfudge/Working-Scheduler

@@ -7,12 +7,12 @@ Mappings change the fields, methods, classes, and parameters from unusable nonse
 The mappings Fabric uses are created and maintained by the Fabric community and are called "yarn mappings".
 
 Fabric mappings are used on top of intermediaries so that the mappings generally work from version to version.
-Intermediaries are also a type of mapping that stays consistant through versions. 
+Intermediaries are also a type of mapping that stays consistent through versions. 
 So if a variable was named `cdr.a` in one version but the next one it was named `cer.b`, the intermediary name of class_2246.field_10124 will stay the same.
 
 There are a variety of different mappings people have made, such as Spigot mappings, Mojang mappings, and MCP mappings.
 You do not necessarily need to know what mappings are in order to mod the game with Fabric, but it certainly does help.
-The mappings that Fabric uses are available here, with every version that we have mapped being under a seperate branch: <https://github.com/FabricMC/yarn>.
+The mappings that Fabric uses are available here, with every version that we have mapped being under a separate branch: <https://github.com/FabricMC/yarn>.
 
 A more in-depth explanation can be found at <https://fabricmc.net/wiki/tutorial:mappings>.
 ---

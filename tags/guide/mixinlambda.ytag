@@ -2,4 +2,4 @@ type: text
 
 ---
 
-When mixing into methods, ensure that your target isn't inside a lambda. Java implements lambdas by creating a separate synthetic method containing the bytecode for that lambda. So you need to find the name of that method instead and substitute it for your `method = "..`, this can be done in intellij like this: https://streamable.com/3vg1d2 (at this time, mcdev has a bug that it does not recognize synthetic methods, try running the game to see if you got it right)
+When mixing into methods, ensure that your target isn't inside a lambda. Java implements lambdas by creating a separate synthetic method containing the bytecode for that lambda. So you need to find the name of that method instead and substitute it for your `method = "..`, this can be done in intellij like this: https://streamable.com/3vg1d2
