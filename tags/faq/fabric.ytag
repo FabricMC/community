@@ -17,6 +17,6 @@ embed:
 
 ---
 
-Fabric is a lightweight, experimental modding toolchain for Minecraft, authored by asiekierka and modmuss50.
+Fabric is a lightweight, experimental modding toolchain for Minecraft, maintained by contributors around the world.
 
-It has a few projects, ranging from Minecraft deobfuscation tools and a basic mod loader to a lightweight modular compatibility layer.
+It has a few projects, ranging from Minecraft deobfuscation tools and a mod loader to a lightweight modular compatibility layer.
