@@ -30,15 +30,12 @@ public class StuffTimer implements StuffTimerAccess {
     }
 }
 ```
-
 ```java
 public interface StuffTimerAccess {
     void yourmod_setTimer(long ticksUntilSomething);
 }
 ```
-
 Usage:
-
 ```java
 MinecraftServer server;
 ((StuffTimerAccess) server).yourmod_setTimer(100L); // do something after 100 ticks
