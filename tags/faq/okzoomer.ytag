@@ -1,10 +1,14 @@
-type: text
+type: embed
+
+colour: #FFD233
+embed:
+    title: OK Zoomer Alternatives
 
 ---
 
-Ok Zoomer mod is currently incompatible with newer versions of Fabric Loader. There are several alternatives:
+Ok Zoomer mod dropped support for Fabric Loader. There are several alternatives:
 
 - Spyglass (available in vanilla game since 1.17)
-- [WI Zoom](https://www.curseforge.com/minecraft/mc-mods/wi-zoom)
 - [Zoomify](https://modrinth.com/mod/zoomify)
-- [Logical Zoom](https://modrinth.com/mod/logical-zoom) (1.18.2 only)
+- [WI Zoom](https://www.curseforge.com/minecraft/mc-mods/wi-zoom)
+- [Logical Zoom](https://modrinth.com/mod/logical-zoom) (<= 1.18.2 only)
