@@ -3,7 +3,7 @@ type: text
 ---
 
 Mixin Extras is a small companion library for the Mixin system, offering alternative ways to use Mixins.
-It is recommended to check Mixin Extras as it offers features such as `ModifyExpressionValue` which is a chainable alternative to `Redirect`
 
-Check it here to get into the library:
-https://github.com/LlamaLad7/MixinExtras
+You can check the library here:
+<https://github.com/LlamaLad7/MixinExtras>
+<https://github.com/LlamaLad7/MixinExtras/wiki>
