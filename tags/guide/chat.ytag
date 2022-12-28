@@ -6,6 +6,6 @@ To send a message from server to all clients: `MinecraftServer server = ...; ser
 
 To send a message from server to specific client: `ServerPlayerEntity player = ...; player.sendMessage(...);`
 
-To send a message from client to server: `MinecraftClient.getInstance().player.sendChatMessage(...);`
+To send a message from client to server: `MinecraftClient.getInstance().player.networkHandler.sendChatMessage(...);` (In 1.19.2 and below, omit `.networkHandler`.)
 
 To add a message to HUD on client: `MinecraftClient.getInstance().inGameHud.getChatHud().addMessage(...);`
