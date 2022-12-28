@@ -11,6 +11,7 @@ type: text
     "dark_oak",
     "crimson",
     "warped",
-    "mangrove"
+    "mangrove",
+    "bamboo"
 ]
 ```

@@ -17,4 +17,4 @@ COMPOUND -> 10
 INT_ARRAY -> 11
 LONG_ARRAY -> 12
 ```
-https://maven.fabricmc.net/docs/yarn-1.19+build.4/net/minecraft/nbt/package-summary.html
+https://maven.fabricmc.net/docs/yarn-1.19.3+build.5/net/minecraft/nbt/package-summary.html
