@@ -7,5 +7,5 @@ embed:
 ---
 **»** [Installing a Minecraft/Fabric Server](https://fabricmc.net/wiki/tutorial:installing_minecraft_fabric_server)
 **»** [Installing a Fabric Server without a GUI](https://fabricmc.net/wiki/player:tutorials:install_server)
-**»** [1.17 Server requires Java 16](https://fabricmc.net/wiki/player:tutorials:mc-1.17-server)
+**»** [1.17+ Server should use Java 17](https://fabricmc.net/wiki/player:tutorials:mc-1.17-server)
 **»** [A list of Fabric Server-side Mods](https://fabricmc.net/wiki/serverside-mods)
