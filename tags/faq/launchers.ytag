@@ -10,6 +10,7 @@ embed:
       value: |
         * Most alternative launchers have one-click installs for Fabric
         * Some alternative launchers have built-in mod downloading and updating
+        * Some alternative launchers have built-in modpack downloading and updating
         * Designed specifically for modded Minecraft
         * Most alternative launchers automatically create separate folders for instances which helps you separate your saves
     -
@@ -17,9 +18,10 @@ embed:
       inline: false
       value: |
         * [MultiMC](https://multimc.org/)
-        * [GDLauncher](https://gdevs.io/)
+        * [Prism Launcher](https://prismlauncher.org/)
+        * [GDLauncher](https://gdlauncher.com/)
+        * [ATLauncher (**Not TLauncher**)](https://atlauncher.com/)
         * [Technic Launcher](https://www.technicpack.net/) (Modpack only)
-        * [ATLauncher (**Not TLauncher**)](https://atlauncher.com/) (Modpack only)
 
 ---
 
