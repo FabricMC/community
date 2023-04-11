@@ -2,4 +2,5 @@ type: text
 
 ---
 
-To access LambDynamicLights configuration screen, please install ModMenu (<https://www.curseforge.com/minecraft/mc-mods/modmenu>). It's way more reliable than the "Video Options" settings menu.
+To access LambDynamicLights configuration screen, please install Mod Menu from [CurseForge](https://www.curseforge.com/minecraft/mc-mods/modmenu) or [Modrinth](https://modrinth.com/mod/modmenu). Mod Menu is more reliable than the "Video Options" settings menu.
+ Alternatively, Sodium users can also press Shift+P on Sodium's Video Options screen to access Minecraft's Video Settings.
