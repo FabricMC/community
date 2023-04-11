@@ -1,4 +1,2 @@
-type: text
----
-
-The mod "fabric" is actually Fabric API. Get it from [CurseForge](https://www.curseforge.com/minecraft/mc-mods/fabric-api) or [Modrinth](https://modrinth.com/mod/fabric-api)
+type: alias
+target: faq/fabricapi
