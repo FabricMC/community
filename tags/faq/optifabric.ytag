@@ -1,2 +1,11 @@
-type: alias
-target: faq/optifine
+type: text
+
+---
+
+OptiFine doesn't support Fabric natively.
+
+If you are willing to try alternatives, please look at this list:
+<https://lambdaurora.dev/optifine_alternatives>
+
+If you need shaders, Iris is the mod for you, find more about it here:
+<https://irisshaders.net/download.html>
