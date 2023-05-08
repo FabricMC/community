@@ -1,4 +1,8 @@
-type: text
+type: embed
+
+colour: blurple
+embed:
+    title: MaLiLib dependency
 
 ---
 
