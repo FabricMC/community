@@ -2,7 +2,7 @@ type: text
 
 ---
 
-> :eight: Do not mention names from MCP, Mojang or other proprietary mappings, even if you use spoilers. 
+> :eight: Do not mention names from MCP, Mojang or other proprietary mappings to influence Yarn development or in <#521545796882006027>
 
-This is due to them having a more restrictive license than yarn. Many yarn contributors chat here and we don't want them to pick up names from other mappings due to their licensing. 
-You may, however, use them to the extent to which they are present in the game jar. This includes constants and some unobfuscated name (such as parts of blaze3d). Meaning that if a name can be deducted from the code it is not necessarily part of the mappings. 
+This is due to them having a more restrictive license than yarn. We don't want yarn contributors to pick up names from other mappings due to their licensing. 
+You may, however, mention them to the extent to which they are present in the game jar. This includes constants and some unobfuscated name (such as parts of blaze3d). Meaning that if a name can be deducted from the code it is not necessarily part of the mappings. 
