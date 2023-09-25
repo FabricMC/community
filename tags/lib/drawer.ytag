@@ -4,4 +4,4 @@ type: text
 
 A **Kotlin Only** api for automatically serializing and deserializing packet byte bufs and NBT
 
-https://github.com/natanfudge/Fabric-Drawer/
+https://github.com/natanfudge/Kotlinx-Serialization-Minecraft
