@@ -1,7 +1,0 @@
-type: text
-
----
-
-Paradox Config is a **kotlin based** configuration api for mods to use to store data.
-
-https://github.com/RedstoneParadox/paradox-config
