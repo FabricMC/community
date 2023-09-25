@@ -6,9 +6,11 @@ embed:
 
 ---
 
-When requesting support for a crash or other error, you should provide error logs - this will give us the information we'll need to help you. Please make sure to upload these logs to a paste site instead of uploading the file directly. Type `!!paste` for a list of sites you can use.
+When requesting support for a crash or other error, you should provide error logs - this will give us the information we'll need to help you. 
 
-Please make sure to upload these logs to a paste site instead of uploading the file directly, see the `paste` tag for a list of sites you can use.
+You can find logs in the `logs` folder or `crash-reports` folder of your instance's directory. `Latest.log` files may contain more information than crash reports.
+
+Please make sure to upload these logs to a paste site instead of uploading the file directly. Type `!!paste` for a list of sites you can use.
 
 Do not copy and paste, screenshot, or significantly alter your logs.
 
