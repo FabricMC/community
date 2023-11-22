@@ -1,0 +1,23 @@
+type: embed
+
+colour: black
+embed:
+    title: Exporting Mixin Classes
+    image:
+        url: "https://cdn.discordapp.com/attachments/523633816078647296/1176733253877641306/mixin-export.png"
+
+---
+
+Annotate your Mixin class with `@Debug(export = true)`, which will export the individual Mixin.
+
+Example:
+```java
+@Debug(export = true)
+@Mixin(...)
+public class MyMixin {
+    // Mixin code here
+}
+```
+You can export **all** Mixin classes by adding `-Dmixin.debug.export=true` to your VM options.
+
+Exported finalized classes will appear in `\run\.mixin.out`.
