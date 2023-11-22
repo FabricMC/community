@@ -20,4 +20,4 @@ public class MyMixin {
 ```
 You can export **all** Mixin classes by adding `-Dmixin.debug.export=true` to your VM options.
 
-Exported finalized classes will appear in `\run\.mixin.out`.
+Exported finalized classes will appear in `run/.mixin.out`.
