@@ -1,0 +1,28 @@
+type: embed
+
+colour: 30B830
+embed:
+    title: Discord formatting
+
+---
+
+\*\*Bold\*\*: **Text**
+\*Italic\*: *Text*
+\|\|Spoiler\|\|: ||Text||
+\~\~Strikethrough\~\~: ~~Text~~
+\_\_Underline\_\_: __Text__
+\`One-line code:\` `Code`
+
+```
+Multi-line code:
+```
+\`\`\`ProgrammingLanguage
+Code
+\`\`\`
+
+\> Quote
+> Text
+
+\>\>\> Multi line quote
+>>> Text
+New line
