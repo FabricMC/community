@@ -14,5 +14,3 @@ If, however, you really *really* want OptiFine, please know first OptiFine can c
 
 OptiFabric is a mod that allows OptiFine to run on Fabric but be aware that some mods will not bother to provide compatibility for it, so use it at your own risk:
 <https://www.curseforge.com/minecraft/mc-mods/optifabric>
-
-Note that currently (as of 26-09-2023) OptiFabric is incompatible with Fabric API versions newer than 0.85.0.
