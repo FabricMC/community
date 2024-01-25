@@ -1,0 +1,6 @@
+type: text
+
+---
+
+You should avoid using `assert` in your mod code. If the assert passes, it will work as expected. However, if it fails, or if assertions are disabled (default behavior), Minecraft will crash.
+Instead of using the assertion pattern `assert someObject != null;`, you should use the null-checking pattern: `if (someObject != null) { /* Code here */ }
