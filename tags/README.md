@@ -94,13 +94,14 @@ front matter options.
 type: text
 ```
 
-## Substitutions
+## Type: Parameterized
 
-The Markdown body of all tags can contain substitutions. These are simply strings that are provided as part of the tag
+The Markdown body of parameterized tags can contain substitutions. These are simply strings that are provided as part of the tag
 invocation on Discord. For example, if we have a tag named `sub.ytag`:
 
 ```
-type: text
+type: parameterized
+validators: ['^[a-zA-Z0-9_-]*$', '^[a-zA-Z0-9_-]*$']
 
 ---
 
@@ -108,6 +109,8 @@ First: {{0}}
 Second: {{1}}
 First again: {{0}}
 ```
+
+The `validators` is an array of regular expression patterns used to validate the inputs.
 
 You could make use of this by providing two extra arguments to the tag invocation:
 
@@ -123,4 +126,4 @@ Second: second-argument
 First again: first-argument
 ```
 
-**Note:** Tags with substitutions cannot be invoked without providing arguments for all substitutions.
+**Note:** Tags with substitutions cannot be invoked without providing valid arguments for all substitutions.
