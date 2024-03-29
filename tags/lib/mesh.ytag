@@ -1,7 +1,0 @@
-type: text
-
----
-
-Mesh is a modding api that supports automatic loading of `.env` files at runtime, registration of recipes at runtime, and auto-register items, blocks, etc.
-
-https://github.com/GlassPane/Mesh
