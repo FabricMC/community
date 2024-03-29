@@ -1,4 +1,5 @@
-type: text
+type: parameterized
+validators: ['^[a-zA-Z0-9_-]*$']
 
 ---
 
