@@ -6,5 +6,6 @@ embed:
 
 ---
 
+[Java 21](https://adoptium.net/?variant=openjdk21&jvmVariant=hotspot) for Minecraft 1.20.5 and later
 [Java 17](https://adoptium.net/?variant=openjdk17&jvmVariant=hotspot) for Minecraft 1.17 and later
 [Java 8](https://adoptium.net/?variant=openjdk8&jvmVariant=hotspot) for Minecraft 1.16 and earlier
