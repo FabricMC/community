@@ -5,7 +5,7 @@ embed:
   title: Alternative Minecraft Launchers
   fields:
     -
-      name: Advantages of Using an Alternative Launcher
+      name: Advantages of using an Alternative Launcher
       inline: false
       value: |
         * Most alternative launchers have one-click installs for Fabric
@@ -17,7 +17,6 @@ embed:
       name: List of Some Alternative Launchers
       inline: false
       value: |
-        * [MultiMC](https://multimc.org/)
         * [Prism Launcher](https://prismlauncher.org/)
         * [GDLauncher](https://gdlauncher.com/)
         * [ATLauncher](https://atlauncher.com/)
