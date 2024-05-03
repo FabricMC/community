@@ -2,7 +2,7 @@ type: text
 
 ---
 
-Whilst LLMs (Large Language Models) like [ChatGPT](https://chat.openai.com/) and [Gemini](https://gemini.google.com/) are impressive tools, **they are not recommended for first-time Fabric mod developers due to their inconsistency and potential for generating inaccurate code. **
+Whilst LLMs (Large Language Models) like [ChatGPT](<https://chat.openai.com/>) and [Gemini](<https://gemini.google.com/>) are impressive tools, **they are not recommended for first-time Fabric mod developers due to their inconsistency and potential for generating inaccurate code. **
 
 LLMs may generate incorrect code that:
 
