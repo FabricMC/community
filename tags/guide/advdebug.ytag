@@ -2,6 +2,7 @@ type: text
 
 ---
 
+**For 1.19.3 or below (bug fixed in 1.19.4):**
 When mods or datapacks add too many advancements, you may encounter a seemingly random `StackOverflowError`.
 This is usually easily fixed by installing the Advancements Debug mod:
 https://modrinth.com/mod/advancements-debug

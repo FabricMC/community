@@ -2,7 +2,7 @@ type: text
 
 ---
 
-Mixin Extras is a small companion library for the Mixin system, offering alternative ways to use Mixins.
+Mixin Extras is a small companion library for the Mixin system, offering alternative ways to use Mixins. Now bundled with Fabric Loader!
 
 You can check the library here:
 <https://github.com/LlamaLad7/MixinExtras>

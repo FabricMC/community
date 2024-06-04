@@ -5,3 +5,5 @@ type: text
 Cardinal-Components-API is an api that allows mod authors to store data as NBT to various places such as world, entity, item stack, and more.
 
 https://github.com/OnyxStudios/Cardinal-Components-API
+
+Note: some of the features can now be replaced with Fabric API's Data Attachment API.
