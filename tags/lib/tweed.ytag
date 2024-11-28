@@ -1,7 +1,0 @@
-type: text
-
----
-
-Tweed is a configuration api for mods wanting to save data and persist it after the minecraft client or server shuts down.
-
-https://github.com/Siphalor/tweed-api

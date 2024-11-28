@@ -12,6 +12,8 @@ type: text
     "crimson",
     "warped",
     "mangrove",
-    "bamboo"
+    "bamboo",
+    "cherry",
+    "pale_oak"
 ]
 ```
