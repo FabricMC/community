@@ -1,7 +1,0 @@
-type: text
-
----
-
-https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/
-
-Note: Aikar flags should NOT be used with newer Java versions/Minecraft 1.17+.

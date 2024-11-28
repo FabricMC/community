@@ -1,5 +1,0 @@
-type: text
-
----
-
-To prevent Gradle cache cleanup when using Gradle 5 or newer, you can add `org.gradle.cache.cleanup=false` to the global `gradle.properties` in your Gradle home directory.

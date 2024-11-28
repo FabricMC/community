@@ -1,9 +1,0 @@
-type: embed
-
-colour: blurple
-embed:
-    title: Old Cardinal Components API
-
----
-
-Some mods include an old version of Cardinal Components API that is incompatible with the latest version of Fabric API. To fix the issue, install the latest version of it from [CurseForge])<https://www.curseforge.com/minecraft/mc-mods/cardinal-components/files> or [Modrinth](https://modrinth.com/mod/cardinal-components-api/versions)
