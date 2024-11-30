@@ -7,3 +7,5 @@ A binary search helps find a single mod causing trouble.
 Remove or disable half of your mods. If the problem is gone, remove half of the rest and try again. If it's not, or it's a different problem, add back half of the mods you just removed.
 
 You don't have to do only halves each time, and may have to enable some dependency mods out of order.
+
+There's also a [tool](<https://github.com/skycatminepokie/FabricBinarySearchTool>) made by the community for doing this automatically. Keep in mind that this is *not* developed by the Fabric team, so please use caution.
