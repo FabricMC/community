@@ -4,7 +4,7 @@ type: text
 
 A binary search helps find a single mod causing trouble.
 
-Remove or disable half of your mods. If the problem is gone, remove half of the what's left and try again. If it's not, or it's a different problem, add back half of the mods you just removed.
+Remove or disable half of your mods. If the problem is gone, remove half of what's left and try again. If it's not, or it's a different problem, add back half of the mods you just removed.
 
 You don't have to do only halves each time, and may have to enable some dependency mods out of order.
 
