@@ -6,8 +6,8 @@ embed:
 
 ---
 
-When sharing a large piece of code or a log, you should use a paste site instead of uploading a file or dumping it in a large codeblock.
-Dumping your code/log in a code block or a message can make it difficult for other people to read previous messages.
+When sharing long code or logs, it's best to upload it to a paste site and share the link. 
+This way, others don't have to download the file to read it, and it's easier to read previous messages. 
 
 **Paste sites and their size limits:**
 

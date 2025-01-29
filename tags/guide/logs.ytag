@@ -6,12 +6,13 @@ embed:
 
 ---
 
-When requesting support for a crash or other error, you should provide error logs - this will give us the information we'll need to help you. 
+For support with crashes or other errors, provide the relevant logs:
 
-You can find logs in the `logs` folder or `crash-reports` folder of your instance's directory. `Latest.log` files may contain more information than crash reports.
+Logs: Located in the `logs` folder in your game directory. The latest log is a text file called `latest` or `latest.log`.
+Crash reports: Located in the `crash-reports` folder in your game directory. If generated, share the newest one.
 
-Please upload these logs to a paste site instead of uploading the file directly. Type `!!paste` for a list of sites you can use.
+To make it easier for others to read, do not copy-and-paste, screenshot, or significantly alter your logs. 
+Upload logs to a paste site and share the link so others do not have to download it. Type `!!paste` for a list of sites. 
 
-Do not copy and paste, screenshot, or significantly alter your logs.
 
 **»** [More information](https://fabricmc.net/wiki/player:tutorials:logs)
