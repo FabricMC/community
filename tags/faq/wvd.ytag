@@ -1,0 +1,24 @@
+type: text
+
+---
+
+As part of the Fabric community, you have two main sources of information: the <#543573585869144075> and the <#1208846408552030238>.
+## Wiki
+-# _Community-driven, fast-moving, broader in scope_
+➕ Well established, as the docs are more recent
+➕ Frequently and quickly updated by the community, which means quicker access to new information
+➕ Broader spectrum of modding aspects, including advanced and niche topics
+➖ Content is not necessarily verified, especially code examples
+➖ Not always the best for beginners, as the information varies in depth and clarity
+➖ Some guides might include outdated code or style recommendations
+➖ May be difficult to contribute to, given the unfamiliar syntax and authentication process
+## Docs
+-# _Official, curated, verified, guiding new modders_
+➕ Content is verified and tested, compiled against a reference mod to ensure it’s working
+➕ Step-by-step tutorials and guides with clean, modern, well-organized information
+➕ Localised via Crowdin to tens of languages. See <https://crowdin.com/project/fabricmc>
+➕ Written in Markdown and hosted on GitHub, which makes it easier to contribute to
+➖ New content and updates may take longer to appear due to verification.
+➖ Focused primarily on common tasks, with little coverage of advanced or experimental topics
+➖ May contain less content than the wiki, contributions welcome!
+-# Note: if content has been transfered from the Wiki to the Docs, you may want to check if your username is credited in `authors` in the new file. If not, drop a message in <#1208846408552030238>!
