@@ -10,7 +10,7 @@ io/github/mymod/mixin/MyClassMixin
 @Mixin(MyClass.class)
 public class MyClassMixin implements MyClassAccess {
     @Override
-    public void access() {
+    public void mymod$access() {
         System.out.println("Accessed!");
     }
 }
@@ -20,7 +20,8 @@ io/github/mymod/access/MyClassAccess
 ```java
 // The duck interface being implemented onto `MyClass`
 public interface MyClassAccess {
-    void access();
+    // Make sure to prefix the method name with your mod id to prevent conflicts with other mods
+    void mymod$access();
 }
 ```
 
@@ -28,7 +29,7 @@ To use it:
 ```java
 public class Container {
     public void slapHaykam(MyClass instance) {
-        ((MyClassAccess)instance).access(); // Will print "Accessed!"
+        ((MyClassAccess)instance).mymod$access(); // Will print "Accessed!"
     }
 }
 ```
