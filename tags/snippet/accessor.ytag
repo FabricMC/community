@@ -6,15 +6,15 @@ io/github/mymod/mixin/MyClassAccess
 ```java
 @Mixin(MyClass.class)
 public interface MyClassAccess {
-  @Invoker void callAccess();
-  @Accessor int getMyField();
+  @Invoker("access") void mymod$callAccess();
+  @Accessor("myField") int mymod$getMyField();
 }
 ```
 to use it
 ```java
 public class Container {
   public void slapHaykam(MyClass instance) {
-     ((MyClassAccess)instance).callAccess();
+     ((MyClassAccess)instance).mymod$callAccess();
   }
 }
 ```
