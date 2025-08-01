@@ -24,7 +24,7 @@ class EntityMixin {
     at = @At("RETURN")
   )
   private EntityPose overrideForPlayer(EntityPose pose) {
-    // the compiler doesn't belive `this` can ever be `PlayerEntity`, so a cast to `Object` is required
+    // the compiler doesn't believe `this` can ever be `PlayerEntity`, so a cast to `Object` is required
     return (Object) this instanceof PlayerEntity ? EntityPose.SWIMMING : pose;
   }
 ```
