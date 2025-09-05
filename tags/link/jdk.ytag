@@ -2,7 +2,7 @@ type: embed
 
 colour: #FF1464
 embed:
-    title: Adoptium (AdoptOpenJDK)
+    title: Adoptium (Temurin)
 
 ---
 
