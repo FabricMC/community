@@ -30,21 +30,25 @@ All projects posted in these channels need to be related to Fabric somehow — f
 
 * `#update-releases`: You can post when you release an update to a project that's already been released. Do not post newly-released projects here.
 
-* `#showcase`: This channel can be used to showcase the things you're working on - for example, a new feature you've added to a mod. As many members of our community are not programmers, we ask that you post in-game screenshots and videos where possible instead of code — although we do recognise that some projects can only be showcased through code.
+* `#showcase`: This channel can be used to showcase the things you're working on - for example, a new feature you've added to a mod. As many members of our community are not programmers, we ask that you post in-game screenshots and videos where possible instead of code — although we do recognise that some projects can only be showcased through code. This channel is a forum, thus appropriate discussion may take place in forum threads. Please keep discussion on topic to the original showcase.
 
-* `#showcase-discussion`: Use this channel to discuss anything that's been posted in any of the other three channels. Please note that **this is not an off-topic channel** — we have more than one of those in the community category if you wish to talk about something else.
+* `#epic-fails`: A place to share funny bugs, crazy rendering glitches and other noteworthy depictions of something going wrong with Fabric modding. Posts should be primarily visual content with minimal explanation.
+
+* `#showcase-discussion`: Use this channel to discuss anything that's been posted in `#new-releases`, `#update-releases` or `#epic-fails`. Please note that **this is not an off-topic channel** — we have one of those in the community category if you wish to talk about something else.
 
 ## Community Category
 
-* `#player-general`: This channel is a space to talk about Fabric as a player, as well as somewhere you can talk about Fabric mods and modpacks. It's also suitable for discussions based around server administration, hosting and working with the JVM, as well as looking-for-group style posts by people that are looking for somewhere to play. This is not a space for developers — see the mod development category for that.
+* `#minecraft`: A place to discuss topics related to Minecraft beyond the scope of anything related to Fabric mod authoring and direct use. Please do not use this channel for mod requests or support requests. 
+
+* `#programming`: This channel can be used to discuss programming outside of Fabric modding, or anything too technically inclined for the current conversation in `#general`. This channel is not for any form of technical or player support related to modding. See `#player-support` or the Mod Development Category
 
 * `#player-support`: This is where you go if your game is crashing with Fabric installed — you can ask about help with specific mods, with Fabric itself, or just to try and figure out why your game isn't working.
 
-* `#general-discussion` & `#general-discussion-2`: Our off-topic community hangs out in these channels. These are **discussion channels**, which means that **they are not meant for dumping images, videos, memes, shitposts or other media** (although you can post media if it actually contributes to the current discussion, or is intended to start a new one). Please read the channel before you post, and try not to disrupt an ongoing conversation — if one of the channels is busy, you can always try the other one.
+* `#server-admin-support`: A place for server admins to request help with technical problems encountered while curating a Fabric server.
 
-* `#requests`: Use this channel to request ideas for new mods. Please note that **this channel is only suitable for serious requests**, not shitposts or jokes. Additionally, this channel is not meant for discussion — use `#requests-discussion` for that.
+* `#general`: Our off-topic community hangs out in this channel. This is a **discussion channel**, which means that **it is not meant for dumping images, videos, memes, shitposts or other media** (although you can post media if it actually contributes to the current discussion, or is intended to start a new one). Please read the channel before you post, and try not to disrupt an ongoing conversation.
 
-* `#requests-discussion`: The place to go when you want to discuss a post in `#requests`. Please note that **this is not an off-topic channel** — we have more than one of those in the community category if you wish to talk about something else.
+* `#requests`: Use this channel to request ideas for new mods. Please note that **this channel is only suitable for serious requests**, not shitposts or jokes. This channel is a forum, thus appropriate discussion may take place in forum threads. Please keep discussion on topic to the original request.
 
 * `#discord-meta`: This is a strictly on-topic channel for users to ask about the community and raise issues with the staff team in a public space. This is a heavily-moderated channel and you should be on your best behaviour when making use of it.
 
@@ -56,13 +60,23 @@ All projects posted in these channels need to be related to Fabric somehow — f
 
 This category contains channels that you can use when you need help with your mods. Please ensure that you give as much information as possible — "it's not working" isn't enough information for us to help you.
 
-* `#mod-dev-1`, `#mod-dev-2` & `#mod-dev-3`: These channels may be used for general development support when working on a mod. There are multiple channels to enable multiple help sessions to happen at the same time, so please read the channel before posting and don't talk over or bury another active help session.
+* `#mod-dev`: A forum style general mod development help channel best suited for sustained, focused support or long running queries. It can make sense to move to this channel from other channels if a long pause in support it required if you choose to open a thread here after requesting help elsewhere, please link all prior discussions from other channels so that others can not waste time on things already covered. Please do not open a thread in this channel and spam the link in other channels. Other modders will respond in your thread if they are willing to help. Please keep discussion on topic to the original post.
+
+* `#mod-dev-1` and `#mod-dev-2`: These channels may be used for general development support when working on a mod. There are multiple channels to enable multiple help sessions to happen at the same time, so please read the channel before posting and don't talk over or bury another active help session.
 
   Additionally, pick one channel and stick with it — don't post your question in more than one channel. It's also worth remembering that everyone that helps out in these channels is working on a voluntary basis, and there may not be someone available to help when you post your question.
   
   If you feel that your question is being ignored, it's likely that nobody is around that knows how to help you. In this case, just wait a while and try again later.
 
 * `#mod-dev-kotlin`: If your mod is being written in Kotlin, you can seek Kotlin-specific help with it in this channel. Please note that this channel is only suitable for Kotlin-specific questions, and you should use one of the regular `mod-dev` channels if a Java developer is likely to be able to help you.
+
+* `#mod-dev-mixin`: Discussion and support for the [SpongePowered Mixin](https://github.com/FabricMC/Mixin) library as used in Fabric mods, and it's related extension libraries. Ask questions, share insights, and troubleshoot issues with mixins. Remember to keep questions focused on Mixin usage  (not general Java/Fabric topics) and show relevant code snippets and error logs when asking for help.
+
+* `#mod-dev-rendering`: A place to discuss rendering in Fabric mods. 
+
+* `#mod-dev-worldgen`: A place to discuss Minecraft worldgen as it relates to fabric modding. when asking for help please be sure to share any relevant json files, as well as any code you may have written. be sure to describe your problem thoroughly to enable efficient asynchronous communication.
+
+* `#dev-talk`: Discussion of fabric modding, by modders. This channel is not for support, please use other channels for support.
 
 * `#bot-posting`: This is our bot commands channel and you should make use of it when you're working with the community bots, where possible. Use this channel instead of creating spam in other channels, as bot use can significantly disrupt the flow of a channel.
 
@@ -84,6 +98,12 @@ This category contains a set of **strictly on-topic channels** that directly rel
 
 * `#toolchain-other`: You can use this channel to discuss the development of any Fabric sub-project that doesn't have a channel in this category.
 
+* `#api`: Discussion for the development of the official Fabric modding API. Please use other channels if you need support.
+
+* `#yarn`: Development of Yarn mappings. Do not mention other mappings in this channel.
+
+* `#docs`: Discussion for the official Fabric Documentation. This channel is not a support channel.
+
 * `#wiki`: Use this channel to request editor access to the wiki, or to discuss changes or improvements to the wiki itself or the articles posted on it.
 
 * `#github`: This is a channel that is automatically updated whenever something happens on GitHub.
@@ -93,10 +113,6 @@ This category contains a set of **strictly on-topic channels** that directly rel
 This category contains all of our public voice channels — you can go here to voice- or video-chat with other members of the community, or to stream your work.
 
 **Please note:** All streams must be appropriate for the community, and strictly safe-for-work. We also ask that users do not disrupt the conversations happening within the voice channels using music, mic-spamming, sound-boards or any other disruptive tools or techniques.
-
-* `#voice-chat`: This channel can be used to participate in conversations happening within the voice channels, regardless of whether you have (or wish to use) a microphone — or if you just want to share links and other media with other people on voice.
-
-  This is not a general discussion channel, however — it's only for use alongside the voice channels.
 
 * `general`: This is an off-topic voice channel. Remember that our rules apply to all communications on the server, including this channel!
 
