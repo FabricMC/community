@@ -7,4 +7,4 @@ embed:
 ---
 
 Loom allows semi-automatic updating of the mappings used in a Java codebase.
-Read more: [Migrating to Yarn or Mojang Mappings in a Java Codebase](<https://wiki.fabricmc.net/tutorial:migratemappings>)
+Read more: [Migrating Mappings](<https://docs.fabricmc.net/develop/migrating-mappings>)
