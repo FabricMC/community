@@ -1,5 +1,10 @@
-type: text
+type: embed
+
+colour: yellow
+embed:
+    title: Linkie
 
 ---
 
-<https://linkie.shedaniel.dev/mappings>
+[linkie.shedaniel.dev](<https://linkie.shedaniel.dev/mappings?namespace=yarn&translateMode=ns&translateAs=mojang_raw&search=>)
+-# A mappings translator by shedaniel.
