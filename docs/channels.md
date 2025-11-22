@@ -10,7 +10,7 @@ This category contains informational channels, providing important information o
 
 * `#tiny-potato`: 
   
-  ![](https://cdn.discordapp.com/attachments/552976908070027270/552978960896753665/2015-04-26_11.13.01.png)
+  ![](https://raw.githubusercontent.com/FabricMC/community/refs/heads/main/images/tinypotatoinafield.png)
 
 * `#welcome`: The primary Discord information channel and the one you should be familiar with. This channel contains information on how the community is run, how we expect you to behave, and what you can do if there's a problem.
 
