@@ -6,15 +6,16 @@ io/github/mymod/mixin/MyClassAccess
 ```java
 @Mixin(MyClass.class)
 public interface MyClassAccess {
-  @Invoker void callAccess();
-  @Accessor int getMyField();
+  @Invoker void modid$callAccess();
+  @Accessor int modid$getMyField();
 }
 ```
 to use it
 ```java
 public class Container {
   public void slapHaykam(MyClass instance) {
-     ((MyClassAccess)instance).callAccess();
+     ((MyClassAccess)instance).modid$callAccess();
   }
 }
 ```
+More information at <https://wiki.fabricmc.net/tutorial:mixin_accessors>
