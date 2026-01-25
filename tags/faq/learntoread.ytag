@@ -1,0 +1,16 @@
+type: text
+
+---
+
+To start modding Minecraft using Fabric, it's strongly recommended to know how to read. 
+Minecraft modding, both as a dev and as a user, requires knowledge of concepts like reading documentation, comprehending and following written instructions, and not being scared of stacktraces. If you don't know all of these concepts, you may have some difficulties modding.
+
+**Here are some online resources that will help you learn to read:**
+Duolingo ABC (free app): <https://abc.duolingo.com/>
+Library (physical building): <https://www.google.com/search?q=library+near+me>
+University of Helsinki (master's programme): <https://www.helsinki.fi/en/degree-programmes/english-studies-masters-programme/>
+Basic English Tutorials: <https://lingua.com/english/reading/>
+Introduction to reading in English by the BBC (free online videos): <https://www.bbc.co.uk/learningenglish/english/course/emw/>
+
+**After Learning To Read**
+For most mods you will want to make, you will have to use the Java programming language. To learn more about Java, you can use the `faq/learnjava` bot tag by typing `!!learnjava` in <#523633816078647296> .
