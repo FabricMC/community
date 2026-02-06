@@ -1,0 +1,12 @@
+type: text
+
+---
+
+When using a PVP client, such as Lunar Client and Feather Client, a lot of mods may break for no apparent reason.
+The most reliable fix for this is simply not using them, and instead using custom launchers (see `!!launchers`), optionally with PVP focused mods.
+You can view alternatives for the following launchers here:
+Lunar Client: <https://alternatives.microcontrollers.dev/latest/lunar/>
+Feather Client: <https://alternatives.microcontrollers.dev/latest/feather/>
+Badlion Client: <https://alternatives.microcontrollers.dev/latest/badlion/>
+
+You can also see further information on why these incompatibilities arise with these launchers on the above pages.
