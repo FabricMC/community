@@ -7,6 +7,7 @@ Minecraft, in its codebase, and mods, using Fabric API, use more advanced Java c
 If you don't know all of these concepts, you may have some difficulties modding.
 
 **Here are some online resources that will help learning Java**
+Modern Java (free online textbook): <https://javabook.mccue.dev/>
 JetBrains Academy ~~(free online course)~~: <https://www.jetbrains.com/academy/>
 Codecademy (free online course): <https://www.codecademy.com/learn/learn-java>
 University of Helsinki (free online course): <https://java-programming.mooc.fi/>
