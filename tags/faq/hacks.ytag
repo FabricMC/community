@@ -1,6 +1,14 @@
-type: text
+type: embed
 
+colour: red
+embed:
+    title: Hacks and Cheats
 ---
 
 We do not support hacked clients, cheats, or modifications that are intended to give you the upper hand in a server, competitive or otherwise.
-See rule 1 in <#523666787485614090> and the Discord TOS: <https://discordapp.com/terms>
+
+See rule 1 in #welcome. [Discord Guidelines](<https://discord.com/guidelines>) states:
+
+> 24. Do not share content that violates anyone's intellectual property or other rights. This includes sharing or selling game cheats or hacks. (See our [Unauthorized Copyright Access Policy](<https://discord.com/safety/copyright-trademark-policy-explainer>) for more.)
+
+Any violation can put this entire server at risk of permanent deletion by Discord.
