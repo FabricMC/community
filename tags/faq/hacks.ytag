@@ -1,6 +1,8 @@
-type: text
+type: embed
 
+colour: red
+embed:
+    title: Hacks and Cheats
 ---
 
-We do not support hacked clients, cheats, or modifications that are intended to give you the upper hand in a server, competitive or otherwise.
-See rule 1 in <#523666787485614090> and the Discord TOS: <https://discordapp.com/terms>
+We do not support hacked clients, cheats, or modifications that are intended to give you the upper hand in a server, competitive or otherwise. Community members may refuse assistance for any request they deem to involve such content.
