@@ -1,19 +1,19 @@
-type: text
+type: embed
 
+colour: cyan
+embed:
+    title: Learning Java
 ---
 
-To start modding Minecraft using Fabric, it's strongly recommended to know Java.
-Minecraft, in its codebase, and mods, using Fabric API, use more advanced Java concepts like lambdas, generics and polymorphism.
-If you don't know all of these concepts, you may have some difficulties modding.
+To start modding Minecraft with Fabric, a solid understanding of Java is strongly recommended. Minecraft, Fabric API, and mods rely on intermediate to advance Java concepts like polymorphism, generics, lambdas, and functional interfaces. You will also need general programming skills like debugging, reading codebases, and using your IDE effectively.
 
-**Here are some online resources that will help learning Java**
-Modern Java (free online textbook): <https://javabook.mccue.dev/>
-JetBrains Academy ~~(free online course)~~: <https://www.jetbrains.com/academy/>
-Codecademy (free online course): <https://www.codecademy.com/learn/learn-java>
-University of Helsinki (free online course): <https://java-programming.mooc.fi/>
-Basic Java Tutorials: <https://docs.oracle.com/javase/tutorial/>
-Introduction to Programming using Java by David J. Eck (free online textbook): <http://math.hws.edu/javanotes/>
+Without a grasp of these concepts, you will face significant difficulties when modding.
 
-**After Learning Java**
-For most mods you will want to make, you will have to use the Spongepowered Mixin Java library.
-To learn more about Mixin, you can use the `faq/mixin` bot tag by typing `!!faq/mixin` in <#523633816078647296> .
+Here are some online tutorials to learn Java:
+* [University of Helsinki: Java Programming MOOC](<https://java-programming.mooc.fi/>)
+* [Codecademy: Learn Java](<https://www.codecademy.com/learn/learn-java>)
+* [Duke University (via Coursera): Java Programming and Software Engineering Fundamentals](<https://www.coursera.org/specializations/java-programming>)
+* [freeCodeCamp (YouTube): Java Programming for Beginners](<https://youtu.be/A74TOX803D0>)
+* [Modern Java (Online textbook)](<https://javabook.mccue.dev/>)
+
+After learning Java, you can begin Minecraft modding. [Fabric developer documentation](<https://docs.fabricmc.net/develop/>) is a good starting point.
