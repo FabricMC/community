@@ -4,11 +4,11 @@ type: text
 
 When writing mixins, you may be tempted to override methods from superclasses in mixins like so:
 ```java
-@Mixin(PlayerEntity.class)
-class PlayerEntityMixin {
+@Mixin(Player.class)
+class PlayerMixin extends Avatar {
   @Override
-  public EntityPose getPose() {
-    return EntityPose.SWIMMING;
+  public Pose getPose() {
+    return Pose.SWIMMING;
   } 
 }
 ```
@@ -23,9 +23,9 @@ abstract class EntityMixin {
     method = "getPose",
     at = @At("RETURN")
   )
-  private EntityPose overrideForPlayer(EntityPose pose) {
-    // the compiler doesn't believe `this` can ever be `PlayerEntity`, so a cast to `Object` is required
-    return (Object) this instanceof PlayerEntity ? EntityPose.SWIMMING : pose;
+  private Pose overrideForPlayer(Pose pose) {
+    // the compiler doesn't believe `this` can ever be `Player`, so a cast to `Object` is required
+    return (Object) this instanceof Player ? Pose.SWIMMING : pose;
   }
 ```
 
@@ -38,16 +38,16 @@ abstract class EntityMixin {
   @WrapMethod(
     method = "getPose"
   )
-  protected EntityPose overrideForPlayer(Operation<EntityPose> original) {
+  protected Pose overrideForPlayer(Operation<Pose> original) {
     return original.call();
   }
 }
-@Mixin(PlayerEntity.class)
-abstract class PlayerEntityMixin extends EntityMixin /* !important! */ {
+@Mixin(Player.class)
+abstract class PlayerMixin extends EntityMixin /* !important! */ {
   // 2. Override the handler in the child mixin, and make the actual changes
   @Override
-  protected EntityPose overrideForPlayer(Operation<EntityPose> original) {
-    return EntityPose.SWIMMING;
+  protected Pose overrideForPlayer(Operation<Pose> original) {
+    return Pose.SWIMMING;
   }
 }
 ```
