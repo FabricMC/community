@@ -32,5 +32,5 @@ We can also manually add messages to the chat. These messsages will not be sent
 to the server or other players, but will be displayed locally in the hud.
 
 ```java
-Minecraft.getInstance().gui.hud.getChat().addRecentChat("This is a virtual message");
+Minecraft.getInstance().getChatListener().handleSystemMessage(Component.literal("This is a virtual message"));
 ```
