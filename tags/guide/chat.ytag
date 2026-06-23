@@ -2,10 +2,35 @@ type: text
 
 ---
 
-To send a message from server to all clients: `MinecraftServer server = ...; server.getPlayerManager().broadcast(...);` (In 1.19+ there are several overloads; check the javadoc for details. If unsure, use `broadcast(Text, boolean)`.)
+## Server
 
-To send a message from server to specific client: `ServerPlayerEntity player = ...; player.sendMessage(...);`
+To send a system message to all players, we can use a broadcast:
 
-To send a message from client to server: `MinecraftClient.getInstance().player.networkHandler.sendChatMessage(...);` (In 1.19.2 and below, omit `.networkHandler`.)
+```java
+MinecraftServer server = ...;
 
-To add a message to HUD on client: `MinecraftClient.getInstance().inGameHud.getChatHud().addMessage(...);`
+server.getPlayerList().broadcastSystemMessage(Component.literal("Hello Fabric World!"), false);
+```
+
+To instead send a message to a specific player:
+
+```java
+ServerPlayer player = ...;
+
+player.sendSystemMessage(Component.literal("This is a direct message"));
+```
+
+## Client
+
+To send a chat message from client to server:
+
+```java
+Minecraft.getInstance().player.connection.sendChat("Hello, World!");
+```
+
+We can also manually add messages to the chat. These messsages will not be sent
+to the server or other players, but will be displayed locally in the hud.
+
+```java
+Minecraft.getInstance().gui.hud.getChat().addRecentChat("This is a virtual message");
+```
