@@ -10,6 +10,9 @@ public interface MyClassAccess {
 
   @Accessor("myField") int modid$getMyField();
   @Accessor("myField") void modid$setMyField(int value);
+
+  @Mutable
+  @Accessor("finalField") void modid$setFinalField(String value);
 }
 ```
 to use it
