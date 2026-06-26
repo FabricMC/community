@@ -6,8 +6,13 @@ io/github/mymod/mixin/MyClassAccess
 ```java
 @Mixin(MyClass.class)
 public interface MyClassAccess {
-  @Invoker void modid$callAccess();
-  @Accessor int modid$getMyField();
+  @Invoker("access") void modid$callAccess();
+
+  @Accessor("myField") int modid$getMyField();
+  @Accessor("myField") void modid$setMyField(int value);
+
+  @Mutable
+  @Accessor("finalField") void modid$setFinalField(String value);
 }
 ```
 to use it
