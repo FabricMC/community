@@ -2,4 +2,4 @@ type: text
 
 ---
 
-When mixing into methods, ensure that your target isn't inside a lambda. Java implements lambdas by creating a separate synthetic method containing the bytecode for that lambda. So you need to find the name of that method instead and substitute it for your `method = "..`, this can be done in intellij like this: https://streamable.com/3vg1d2
+When mixing into methods, check if your target is inside a lambda. Java implements lambdas by creating a separate synthetic method containing the bytecode for that lambda, so if your target is in a lambda, you need to find the name of that method instead and substitute it for your `method = "..."`. This can be done in IntelliJ like [this](https://raw.githubusercontent.com/FabricMC/community/refs/heads/main/media/mixinLambda.mp4)
