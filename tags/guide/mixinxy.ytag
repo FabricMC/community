@@ -1,0 +1,14 @@
+type: text
+
+---
+
+Don't ask for a solution to the solution you have come up with.
+State exactly what you would like to change and show the code that should be changed.
+
+For example:
+
+:x: Don't do this
+> How do I use `@ModifyVariable` to modify this method in this particular way
+
+:white_check_mark: Do this
+> How can I accomplish this goal with the following source code:
