@@ -5,7 +5,7 @@ embed:
     title: Learning Java
 ---
 
-To start modding Minecraft with Fabric, a solid understanding of Java is strongly recommended. Minecraft, Fabric API, and mods rely on intermediate to advanced Java concepts like polymorphism, generics, lambdas, and functional interfaces. You will also need general programming skills like debugging, reading codebases, and using your IDE effectively.
+To start modding Minecraft with Fabric, a solid understanding of Java is strongly recommended. Minecraft, Fabric API, and mods rely on intermediate-to-advanced Java concepts, like polymorphism, generics, lambdas, and functional interfaces. You will also need general programming skills, such as debugging, reading codebases, and using your IDE effectively.
 
 Without a grasp of these concepts, you will face significant difficulties when modding.
 
