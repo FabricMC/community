@@ -7,7 +7,7 @@ embed:
 
 For support with performance issues, provide a link to a relevant Spark report.
 1. Ensure the mod [Spark](https://modrinth.com/mod/spark) is installed on the client or the server depending on which side is experiencing the issue.
-2. Launch the game and run a profiler command. The [Spark Wiki](https://spark.lucko.me/docs/Command-Usage) lists all of the commands available. For a quick report, run `/spark profiler start --timeout 15`
+2. Launch the game and run a profiler command. The [Spark Docs](https://spark.lucko.me/docs/Command-Usage) lists all of the commands available. For a quick report, run `/spark profiler start --timeout 15`
 3. The profiler may take some time to finish. Once it is done, a link will be provided to the report.
 
-To make it easier for others to read, do not screenshot the report. Instead, send the link for others to access.
+To make it easier to read, do not screenshot the report. Instead, send the link so others can access it.
