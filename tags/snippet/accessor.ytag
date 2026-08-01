@@ -23,4 +23,4 @@ public class Container {
   }
 }
 ```
-More information at <https://wiki.fabricmc.net/tutorial:mixin_accessors>
+More information at <https://docs.fabricmc.net/develop/mixins/accessors>
