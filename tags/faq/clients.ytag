@@ -8,3 +8,8 @@ embed:
 When using a PVP client, such as Lunar Client or Dawn (formerly Feather) Client, mods may break for no apparent reason.
 The most reliable fix for this is simply not using them, and instead using custom launchers (see `!!launchers`), optionally with PVP focused mods.
 Due to the invasive and proprietary nature of the changes these clients make, it is difficult for us to provide support when they are in use. Instead, try seeking support in their support channels.
+
+If you need a list of mods that can replace these popular clients, you can check these links below:
+Lunar Client: <https://alternatives.microcontrollers.dev/latest/lunar/>
+Dawn (Feather) Client: <https://alternatives.microcontrollers.dev/latest/feather/>
+Badlion Client: <https://alternatives.microcontrollers.dev/latest/badlion/>
