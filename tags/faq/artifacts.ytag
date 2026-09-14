@@ -1,0 +1,23 @@
+type: text
+
+---
+
+After compiling and exporting your mod to a JAR archive, you will notice that there are four files inside `build/libs`.
+
+*Which one to use?*
+TL;DR use the one without `-sources` or `-dev` (the shortest one).
+
+**What do they do?**
+Let's walk through the compilation process (when you run the `build` task):
+- Firstly, Gradle compiles your mod normally using the `jar` task to produce the `-dev` JAR (Loom changes the `jar` task's classifier to `dev`).
+- Secondly, Loom remaps the produced JAR (`-dev`) to the intermediary names (`remapJar` task). These names are used in a production environment (this is the JAR file without a classifier).
+- Additionally, Gradle also produces a sources JAR using the `sourcesJar` task (`-sources`). This JAR uses the mappings you configured (the same as your real sources).
+- Then, Loom remaps the sources to intermediary (`remapSourcesJar`), changes the original sources JAR name to `-sources-dev`, and produces its own intermediary sources JAR (`-sources`). This uses source code remapping, and as such, won't work with languages other than Java.
+
+**What does all this mean?**
+42, obviously.
+
+As mentioned earlier, the intermediary names are the names used in a production environment, and as such the classifier-less JAR is the only one that is usable outside a development environment.
+When depending on other mods using Gradle, it is still recommended that you download the JAR without a classifier (and not append `:dev`), because the named JAR may use outdated/different mappings than your project. (Same for sources)
+
+The sources JAR is, of course, unusable and isn't runnable JIT-able code. It should only be used in IDEs.
