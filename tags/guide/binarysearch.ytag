@@ -2,10 +2,16 @@ type: text
 
 ---
 
-A binary search can be used to quickly find a specific mod causing trouble, which can be especially useful when logs don't give a conclusive answer to your issue.
+A **binary search** (aka **bisection**) quickly finds a broken mod without testing them one-by-one. Use this when crash logs don't give a conclusive answer.
 
-Start by removing or disabling half of your mods, then test if the problem still occurs. If it does, remove half of the remaining mods and test again. If it doesn't, add back half of the mods you just removed.
+**Note:** Back up your world before testing, or use a temporary test world to avoid world corruption!
 
-Keep in mind you don't have to stick strictly to halves each time, and may have to enable some library mods like Fabric API out of order.
+1. **Setup:** Keep core dependencies (like Fabric API) always enabled. Pick your suspect mods (or all mods if unsure).
+2. **Split:** Divide your suspects into **Half A** and **Half B**. (Rough halves are fine.)
+3. **Test:** Enable Half A. Disable Half B. Keep previously saved mods enabled. Launch the game.
+4. **Check:**
+  * **Issue persists:** The bad mod is in Half A. Repeat from Step 2 using **Half A**.
+  * **Issue is gone:** Keep Half A enabled. Repeat from Step 2 using **Half B**.
+5. **Done:** Stop when only 1 suspect remains. That mod is the culprit.
 
-By repeating this on an increasingly smaller set of mods, you'll find the problematic mod within a few iterations.
+**Still having issues?** If you remove the culprit and the issue still persists, keep your working mods enabled and repeat from Step 1 to find the next bad mod.
