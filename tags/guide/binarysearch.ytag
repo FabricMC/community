@@ -2,7 +2,7 @@ type: text
 
 ---
 
-A **binary search** (aka **bisection**) quickly finds a broken mod without testing them one-by-one. Use this when crash logs don't give a conclusive answer.
+A **binary search** (aka **bisection**) quickly finds a broken mod without testing them one-by-one. Use this when the logs don't give a conclusive answer.
 
 **Note:** Back up your world before testing, or use a temporary test world to avoid world corruption!
 
