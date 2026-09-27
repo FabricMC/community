@@ -6,12 +6,12 @@ A **binary search** (aka **bisection**) quickly finds a broken mod without testi
 
 **Note:** Back up your world before testing, or use a temporary test world to avoid world corruption!
 
-1. **Setup:** Keep core dependencies (like Fabric API) always enabled. Pick your suspect mods (or all mods if unsure).
+1. **Setup:** Always keep core dependencies (like Fabric API) enabled. Start with all installed mods (or a specific group if you suspect them).
 2. **Split:** Divide your suspects into **Half A** and **Half B**. (Rough halves are fine.)
-3. **Test:** Enable Half A. Disable Half B. Keep previously saved mods enabled. Launch the game.
+3. **Test:** Enable Half A. Disable Half B. Keep any working mods from previous steps enabled. Launch the game.
 4. **Check:**
-  * **Issue persists:** The bad mod is in Half A. Repeat from Step 2 using **Half A**.
-  * **Issue is gone:** Keep Half A enabled. Repeat from Step 2 using **Half B**.
+   * **Issue persists:** The bad mod is in Half A. Repeat from Step 2 using **Half A** as your new suspects.
+   * **Issue is gone:** Half A is safe! Keep Half A enabled, and repeat from Step 2 using **Half B** as your new suspects.
 5. **Done:** Stop when only 1 suspect remains. That mod is the culprit.
 
 **Still having issues?** If you remove the culprit and the issue still persists, keep your working mods enabled and repeat from Step 1 to find the next bad mod.
