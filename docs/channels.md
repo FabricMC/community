@@ -32,7 +32,7 @@ All projects posted in these channels need to be related to Fabric somehow — f
 
 * `#showcase`: This channel can be used to showcase the things you're working on - for example, a new feature you've added to a mod. As many members of our community are not programmers, we ask that you post in-game screenshots and videos where possible instead of code — although we do recognise that some projects can only be showcased through code. This channel is a forum, thus appropriate discussion may take place in forum threads. Please keep discussion on topic to the original showcase.
 
-* `#epic-fails`: A place to share funny bugs, crazy rendering glitches and other noteworthy depictions of something going wrong with Fabric modding. Posts should be primarily visual content with minimal explanation.
+* `#rendering-fails`: Funny bugs and crazy rendering glitches or world gen bugs created with Fabric modding. Screenshots from in-game only, discussion in #showcase-discussion
 
 * `#showcase-discussion`: Use this channel to discuss anything that's been posted in `#new-releases`, `#update-releases` or `#epic-fails`. Please note that **this is not an off-topic channel** — we have one of those in the community category if you wish to talk about something else.
 
