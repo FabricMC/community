@@ -1,0 +1,10 @@
+type: embed
+
+colour: red
+embed:
+    title: Essential Mod
+---
+
+When using Essential Mod mods may break for no apparent reason.
+The most reliable fix for this is simply not using it, and instead using alternative mods such as e4mc.
+Due to the invasive and proprietary nature of the changes essential mod makes, it is difficult for us to provide support when it is in use.
