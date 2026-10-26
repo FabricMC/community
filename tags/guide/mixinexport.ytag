@@ -23,4 +23,16 @@ You can export **all** Mixin classes by adding `-Dmixin.debug.export=true` to yo
 > IntelliJ IDEA - [Run/debug configurations - More options](<https://www.jetbrains.com/help/idea/run-debug-configuration-java-application.html#more_options>) (See "VM options")
 > VSCode - [Running and debugging Java - Configuration options](<https://code.visualstudio.com/docs/java/java-debugging#_configuration-options>) (See "vmArgs")
 
+For Fabric Loom 1.18+, append the JVM argument through the build script and sync the Gradle project.
+
+```groovy
+loom {
+    runs {
+        "client" { // or "server" depending on the run configuration you use
+            jvmArguments.addAll("-Dmixin.debug.export=true")
+        }
+    }
+}
+```
+
 Exported finalized classes will appear in `run/.mixin.out`.
